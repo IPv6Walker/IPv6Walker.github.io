@@ -1,0 +1,42 @@
+projects:
+
+  - name: PDF-element
+    description: Web component built with Polymer which renders PDF files using Mozzila's PDF.js library.
+    technologies: Polymer/JS
+    links:
+      github: https://github.com/streetturtle/pdf-element
+      site: http://pavelmakhov.com/pdf-element/
+
+  - name: Learn Foreign Numbers
+    description: Progressive Web App build with Polymer which helps learn how to write foreign numers.
+    technologies: Polymer/HTML/CSS
+    links:
+      github: https://github.com/streetturtle/learn-foreign-numbers
+      site: https://learn-foreign-numbers.firebaseapp.com/
+
+  - name: Awesome WM widgets
+    description: Collection of widgets for the Awesome Window Manager for Linux. Contains Battery, Volume, Spotify, Email and Rates widgets.
+    technologies: Lua/Python
+    links:
+      github: https://github.com/streetturtle/AwesomeWM
+      site: http://pavelmakhov.com/AwesomeWM/
+
+  - name: AppDynamics Extensions
+    description: Several extensions for AppDynamics. They were developed because out-of-the-box extensions are written in Java and it was hard to maintain and customize them.
+    technologies: Ruby/Bash
+    links:
+      github: https://github.com/streetturtle/AppDynamics-Extensions
+
+  - name: Jekyll Clean Dark
+    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
+    technologies: HTML/CSS/Bootstrap
+    links:
+      github: https://github.com/streetturtle/jekyll-clean-dark
+      site: http://pavelmakhov.com/jekyll-clean-dark/
+
+  - name: Jekyll CV Crafter
+    description: To be able to easy update/view/print my CV I created jekyll powered CV generator.
+    technologies: HTML/CSS/Bootstrap
+    links:
+      github: https://github.com/streetturtle/jekyll-cv-crafter
+      site: http://pavelmakhov.com/jekyll-cv-crafter/

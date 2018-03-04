@@ -1,0 +1,65 @@
+{% if site.tags != "" %}
+{% include collecttags.html %}
+{% endif %}
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#222222" />
+
+  <title>{{ site.name }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="{{site.url}}/js/jquery.min.js"></script>
+  <script src="{{site.url}}/js/bootstrap.min.js"></script>
+  <script src="{{site.url}}/js/header.js"></script>
+  <link href="{{site.url}}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{site.url}}/css/theme.css" rel="stylesheet">
+  <link href="{{site.url}}/css/syntax.css" rel="stylesheet">
+  <link href="{{site.url}}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin">
+</head>
+
+<body>
+
+  {% include google-analytics.html %}
+  {% include yandex-metrika.html %}
+
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: {
+        families: ['Ubuntu::latin']
+      }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.url }}/">{{ site.name }}</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="{{ site.url }}/">BLOG</a></li>
+          <li><a href="{{ site.url }}/archive">ARCHIEVE</a></li>
+<!--          <li><a href="{{ site.url }}/projects">/projects</a></li> -->
+           <li><a href="{{ site.url }}/tags">TAGS</a></li>
+          <li><a href="{{ site.url }}/about">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>

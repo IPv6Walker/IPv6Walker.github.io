@@ -1,0 +1,176 @@
+person:
+  name: Pavel Makhov
+  profession: Java Developer
+  location: Montréal, Canada
+#  citizenship: Russia
+#  birthday: 12.04.1990
+  email: pavel.makhov@outlook.com
+  site: http://pavelmakhov.com
+  linkedin: /streetturtle
+  github: /streetturtle
+  stackoverflow: /streetturtle
+  spokenLanguages: English / French / Russian
+career:
+ - position: Software Developer
+   company: Intelerad
+   company-site: https://www.intelerad.com/
+   logo: intelerad.png
+   location: Montreal, Canada
+   country: ca
+   dates: 01.2018 - current
+
+ - position: Java Developer / Consultant
+   company: Savoir-Faire Linux
+   company-site: https://savoirfairelinux.com
+   logo: sflx.png
+   location: Montreal, Canada
+   country: ca
+   dates: 08.2016 - 12.2017
+   accomplishments:
+    - accomplishment: Development of high performance highly available REST API which supports many various parameters and provides information from MySQL DB.
+    - accomplishment: Development of the real-time data processing application based on Apache Mahout and Apache Kafka.
+    - accomplishment: Development of Proof of Concept WebRTC Liferay portlet.
+
+ - position: Java/Alfresco Developer
+   company: CERN
+   company-site: https://home.cern/
+   logo: cern.jpg
+   location: Geneva, Switzerland
+   country: ch
+   dates: 09.2014 - 05.2016
+   summary: I took part in the development of business critical eFiles document management system based on open source solution - Alfresco – the market leader in records management. As an Alfresco developer I worked on extending and customizing Alfresco. Through this project, I have learned business processes of other teams, as we constantly work with CERN HR team, developing the way to link their needs with technical abilities of the software.
+   accomplishments:
+    - accomplishment: Customization of server-side and client-side parts of Alfresco in correspondence to the organisation's internal processes and requirements.
+    - accomplishment: Integrating Alfresco with AppDynamics - application performance management system.
+    - accomplishment: Development of the web application for 2nd/3rd support of eFiles. Technology stack is Spring Boot, AngularJS, Spring Data Rest.
+    - accomplishment: Development of the custom user interface of Alfresco document library page based on Polymer.
+
+ - position: Software Developer
+   company: CERN
+   company-site: https://home.cern/
+   logo: cern.jpg
+   location: Geneva, Switzerland
+   country: ch
+   dates: 10.2012 – 09.2014
+   summary: I worked in GS-AIS-EB (Electronic Business) section for EDH (Electronic Document Handling) system, which covers many life aspects at CERN (such as absences, HR & Training, purchasing, logistics and safety). In this role I was developing EDH documents and improving functionality of existing ones. One of the biggest and the most interesting project during this period was the development of CERN Hotel booking application.
+   accomplishments:
+    - accomplishment: Extending functionality of CERN Hotel web booking application (hostel.cern.ch). Main feature developed is the possibility to create a Waiting-List reservations.
+    - accomplishment: Migrating existing business processes from BPEL to BPMN (Activiti).
+    - accomplishment: 3rd Line support
+
+ - position: Software Developer
+   company: Probusinessbank
+   logo: life.jpg
+   location: Moscow, Russia
+   country: ru
+   dates: 10.2011 – 07.2012
+   summary: While finishing the study at University I got a job at Probusinessbank in Moscow, one of TOP-50 banks in Russia. During my time there, I was responsible for several activities.
+   accomplishments:
+    - accomplishment: Development of web-services communicating with external systems such as credit agencies, payment systems.
+    - accomplishment: Extending of the functionality of Mobile banking system, server-side part, which was the theme for my diploma project.
+    - accomplishment: Development of web-applications for internal bank needs.
+    - accomplishment: Development of Web-Service in order to generate PDF reports using XSL-FO transformations.
+
+technicalSkills:
+  list:
+    - tr: "Spring / Maven / JUnit / Mockito / Camel / Hazelcast"
+    - tr: "Oracle, MySQL, PostgreSQL"
+    - tr: "Experience with JDBC/ORM, Hibernate, Criteria API"
+    - tr: "Web application servers: Tomcat, Weblogic"
+    - tr: "Scripting languages: Python / Bash"
+    - tr: "Experience with REST / SOAP web-services"
+    - tr: "Git / SVN"
+    - tr: "100% Ubuntu/Debian user"
+    - tr: "Scrum / Agile / pair programming experience"
+    - tr: "Alfresco development experience"
+  backend:
+   - name: Java SE/EE
+     level: 100
+   - name: DBs
+     level: 80
+  frontend:
+   - name: AngularJS/Polymer/JS
+     level: 80
+   - name: HTML/CSS/Bootstrap
+     level: 90
+  other:
+   - name: Apache Kafka
+     level: 90
+   - name: Hadoop, Apache Spark
+     level: 60
+
+sideProjects:
+#  - name: Technical blog
+#    description: My technical blog to share some thoughts/problems-solutions/tutorials on different topics, such as Java, Web development, Linux, Awesome WM.
+#    link: http://pavelmakhov.com
+#    type: site
+#    langs: HTML/CSS/Bootstrap
+
+  - name: Awesome WM widgets
+    description: Collection of widgets for the Awesome Window Manager for Linux.
+    link: https://github.com/streetturtle/AwesomeWM
+    type: github
+    langs: Lua
+    stars: 78
+
+  - name: PDF-element
+    description: Web component built with Polymer which allows to render PDF files.
+    link: http://github.com/streetturtle/pdf-element/
+    type: github
+    langs: Polymer
+    stars: 22
+
+  - name: Jekyll Clean Dark
+    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
+    link: https://github.com/streetturtle/jekyll-clean-dark
+    type: github
+    langs: Jekyll
+    stars: 79
+
+  - name: Jekyll CV Crafter
+    description: To be able to easy update/view/print my CV I created jekyll powered CV generator.
+    link: https://github.com/streetturtle/jekyll-cv-crafter
+    type: github
+    langs: Jekyll
+    stars: 42
+
+  - name: Learn Foreign Numbers
+    description: Progressive Web App based on Google's <a href="https://www.polymer-project.org/">Polymer Project</a>. The aim of this app is to train how to write foreign numbers. Currently supported languages are French, Spanish, Portuguese, Italian and Vietnamese.
+    link: https://learn-foreign-numbers.firebaseapp.com/
+    type: site
+    langs: Polymer
+
+
+certifications:
+  - name: FP Principles in Scala
+    issuer: Coursera
+    date: July 2016
+    link: https://www.coursera.org/account/accomplishments/verify/ZBYZ6J458R9Z
+    badge: coursera_cert.png
+  - name: Data Science Foundations
+    issuer: IBM (Big Data University)
+    date: December 2016
+    link: https://www.youracclaim.com/badges/d591811c-74fc-414f-a360-d24838c257dd
+    badge: data_sci_found_cert.png
+  - name: Hadoop Programming
+    issuer: IBM (Big Data University)
+    date: December 2016
+    link: https://www.youracclaim.com/badges/d6b2f959-1029-4e89-88f0-117c0c130fc4
+    badge: hadoop_cert.png
+  - name: Scala Programming for Data Science
+    issuer: IBM (Big Data University)
+    date: December 2016
+    link: https://www.youracclaim.com/badges/c8a35db4-61ab-4365-ad57-bcf973696bc6
+    badge: scala_cert.png
+  - name: Spark
+    issuer: IBM (Big Data University)
+    date: January 2017
+    link: https://www.youracclaim.com/badges/c2b8ce85-70ec-446d-8b59-702459cb1849
+    badge: spark-cert.png
+
+education:
+  - name: National Research University of Electronic Technology
+    degree: Master of Computer Science
+    location: Moscow, Russia
+    dates: 2007 – 2012
+    link: https://eng.miet.ru/
