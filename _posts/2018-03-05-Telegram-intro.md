@@ -9,7 +9,7 @@ tags:
  - Telegram
 ---
 
-![](http://telegra.ph/file/1a05300f123b77843c2be.png)*telegram*
+![](http://telegra.ph/file/958656d743da04054795f.png)*telegram*
 
 * TOC
 {:toc}

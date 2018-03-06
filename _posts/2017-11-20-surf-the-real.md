@@ -5,10 +5,11 @@ share: true
 title: 机智上网
 description: Main( 翻墙, Shadowsocks )
 tags:
+ - GFW
  - socks
 ---
 
-![](http://telegra.ph/file/01f13a3f282011c2a128c.jpg){: .center-image}*RedMoon*
+![](http://telegra.ph/file/26a8bc9f9c90725f07e63.jpg){: .center-image}
 
 > 在互联网时代，GFW 公然进行域名投毒的活动，真是令人不齿。
 
