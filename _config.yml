@@ -32,13 +32,13 @@ collections:
     output: false
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-106553302-1
+google_analytics_key: UA-106553302-2
 # Yandex metrika (https://metrica.yandex.com/) leave blank to ignore or put true to use
 yandex_metrika: true
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: test01_007
+disqus: test007-gq
 comments: true
 
 permalink: /:title
