@@ -1,0 +1,17 @@
+_site/
+.DS_Store
+.*.swp
+.idea
+.sass-cache/
+*~
+bourbon/
+Gemfile.lock
+/_site/tag/alfresco/index.html
+/_site/tag/database/index.html
+/vendor/
+/.bundle/
+_drafts
+yulib.resource
+yulib.config
+.vs
+.vscode

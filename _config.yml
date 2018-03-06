@@ -29,7 +29,7 @@ share:
 
 collections:
   quicknotes:
-    output: true
+    output: false
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-106553302-1
@@ -38,7 +38,7 @@ yandex_metrika: true
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: ynewtime-com
+disqus: test01_007
 comments: true
 
 permalink: /:title
