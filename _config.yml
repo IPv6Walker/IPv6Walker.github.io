@@ -12,7 +12,6 @@ baseurl: '/'
 social:
   #github: 
   twitter: kotaro01_007
-  telegram: test01_007
   #stackoverflow: 
   #linkedin: 
   #codepen: 
@@ -23,7 +22,6 @@ social:
 
 share:
   facebook: true
-  telegram: true
   twitter: true
   gplus: true
   linkedin: true
