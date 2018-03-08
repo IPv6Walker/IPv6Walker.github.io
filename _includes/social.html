@@ -1,6 +1,15 @@
 <h6>Follow me</h6>
 
 <ul class="social-media">
+
+     {% if site.social.telegram %}
+    <li>
+        <a title="{{ site.social.telegram }} on Telegram" href="https://t.me/{{ site.social.telegram }}" target="_blank">
+            <i class="fab fa-telegram fa-2x"></i>
+        </a>
+    </li>
+    {% endif %}
+
     {% if site.social.twitter %}
     <li>
         <a title="{{ site.social.twitter }} on Twitter" 

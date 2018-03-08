@@ -2,45 +2,44 @@
 layout: post
 comments: true
 share: true
-title: 机智上网
+title: 機智上網
 date: 2018-03-06 01:00:00
-description: Main( 翻墙, Shadowsocks )
+description: Main( 翻墻, Shadowsocks )
 tags:
  - GFW
- - socks
 ---
 
 ![](http://telegra.ph/file/26a8bc9f9c90725f07e63.jpg){: .center-image}
 
-> 在互联网时代，GFW 公然进行域名投毒的活动，真是令人不齿。
+> 在互聯網時代，GFW 公然進行域名投毒的活動，真是令人不齒。
 
 * TOC
 {:toc}
 
 ## Shadowsocks 原理
 
-关于 Shadowsocks 原理，请看这篇文章：
+關於 Shadowsocks 原理，請看這篇文章：
 
-[写给非专业人士看的 Shadowsocks 简介](http://test007.gq/ss-intro)
+[寫給非專業人士看的 Shadowsocks 簡介](http://test007.gq/ss-intro)
 
-## 节点准备
+## 節點準備
 
-你需要先获取一个节点：
+你需要先獲取一個節點：
 
 [Freenode Share](http://test007.gq/Free-node-share)
 
-## 步骤
+## 步驟
 
-具体步骤参见[这里](http://test007.gq/surf-the-real02)。
+具體步驟參見[這裏](http://test007.gq/surf-the-real02)。
 
-## 进级VPS ##
+## 進級VPS ##
 
-考虑购买 VPS。搬瓦工是不错的选择，戳这里进入：[搬瓦工](https://bwh1.net/aff.php?aff=28820). 这家 VPS 提供了一键式搭建 ss / ssr 服务，博主亲测两年推荐。
+考慮購買 VPS。搬瓦工是不錯的選擇，戳這裏進入：[搬瓦工](https://bwh1.net/aff.php?aff=28820). 這家 VPS 提供了一鍵式搭建 ss / ssr 服務，博主親測兩年推薦。
 
 ### 更多
 
-1. 关于代理上网步骤，请参考[机智上网全平台简略教程](http://test007.gq/surf-the-real02)
-2. [Telegram 入门](http://test007.gq/Telegram)
+1. 關於代理上網步驟，請參考[機智上網全平臺簡略教程](http://test007.gq/surf-the-real02)
+2. [Telegram 入門](http://test007.gq/Telegram)
 3. [利用教育網 IPv6 實現免代理翻墻、大一斷網和夜間斷網破解](http://test007.gq/IPV6-edu)
 4. [IPv6 節點獲取](http://test007.gq/IPV6-node)
 

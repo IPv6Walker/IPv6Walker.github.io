@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: IPv6 Node
+name: 安昙小太郎
 description: Software Developer
 
 url: http://test007.gq
@@ -10,14 +10,15 @@ url: http://test007.gq
 baseurl: '/'
 
 social:
-  github: 
-  twitter:
+  #github: 
+  twitter: 
   #stackoverflow: 
   #linkedin: 
   #codepen: 
   #instagram: 
   #lastfm: 
-  #rss: feed.xml
+  rss: feed.xml
+  telegram: test01_007
 
 share:
   facebook: true

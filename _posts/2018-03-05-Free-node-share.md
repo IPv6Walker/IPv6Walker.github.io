@@ -2,23 +2,42 @@
 layout: post
 comments: true
 share: true
-title: 免费的节点分享 / FreeNode Share / IPv4
-description: 分享快乐。
+title: 免費的節點分享 / FreeNode Share / IPv4
+description: 分享快樂。
 tags:
- - socks
+ - ss
 ---
 
 ![alt](http://telegra.ph/file/926d3c4d491a1feb577f4.jpg){:.center-image}
 
-这是一条 ssr 订阅链接，打开你的 ssr 客户端，选择订阅，添加这条订阅链接，然后升级订阅即可。
+> 什麼是節點？
+{:.note}
 
-> ssrshare.com
+首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](https://vc2tea.com/whats-shadowsocks/)，簡單來講，IPv6 節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
+
+> 鏈接形式
 {:.filename}
-```
-https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
+```yml
+ss://YWVzLTEyOC1jZmI6WmpBNVpETXdOekAyNjA3Ojg3MDA6MTAxOjQ3Yjc6MzJhYjo5OWZhOmEzMDo4ZTY0OjIxNDY5
 ```
 
-Google Hosts 项目维护的两个公共 ss 节点及 Telegram socks5 代理
+> 手動配置
+{:.filename}
+```yml
+Server Address: 2607:8700:101:47b7:32ab:99fa:a30:8e64
+Server Port: 21469
+Password: ZjA5ZDMwNz
+Encryption: aes-128-cfb
+```
+
+客戶端配置：
+
+![](http://telegra.ph/file/f17567e9fdca7ca96926b.png)
+
+> IPv4 公共免費節點
+{:.note}
+
+Google Hosts 項目維護的兩個公共 ss 節點及 Telegram socks5 代理
 
 > Google Hosts
 {:.filename}
@@ -26,15 +45,26 @@ Google Hosts 项目维护的两个公共 ss 节点及 Telegram socks5 代理
 https://github.com/googlehosts/hosts/wiki/%E5%AE%9E%E9%AA%8C%E5%AE%A4-Laboratory#shadowsocks
 ```
 
-其余公共节点站
+這是一條 ssr 訂閱鏈接，打開你的 ssr 客戶端，選擇訂閱，添加這條訂閱鏈接，然後升級訂閱即可。
 
-> 节点分享站 / 密码定时更新
+> ssrshare.com
+{:.filename}
+```
+https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
+```
+
+其余公共節點站
+
+> 節點分享站 / 密碼定時更新
 {:.filename}
 ```yml
-免费上网账号: https://free-ss.site/ (科学管理，使用简单)
-免费上网账号: http://mirror.weirch.com/ (同上，镜像站点)
-SS节点分享站: https://freess.cx/#portfolio-preview (Free SS 每24个小时更新密码)
-逗比分享: https://doub.bid/sszhfx/ (镜像站点，国内通行，三天更新)
-逗比分享: https://doub.bid/sszhfx/ (网站已被屏蔽，需机智上网，不作为第一选择，备用)
-SS / SSR 节点分享站: https://global.ishadowx.net/ (iShadow 每六个小时更新密码，速度快)
+免費上網賬號: https://free-ss.site/ (科學管理，使用簡單)
+免費上網賬號: http://mirror.weirch.com/ (同上，鏡像站點)
+SS節點分享站: https://freess.cx/#portfolio-preview (Free SS 每24個小時更新密碼)
+逗比分享: https://doub.bid/sszhfx/ (鏡像站點，國內通行，三天更新)
+逗比分享: https://doub.bid/sszhfx/ (網站已被屏蔽，需機智上網，不作為第一選擇，備用)
+SS / SSR 節點分享站: https://global.ishadowx.net/ (iShadow 每六個小時更新密碼，速度快)
 ```
+
+> 註意：這篇文章分享的是免費的公共 IPv4 翻墻節點，如果你可以利用到 IPv6，想尋找 IPv6 節點，請戳這篇文章：[IPv6 Node Share](http://test007.gq/IPV6-node)
+{:.note .warning}
