@@ -13,7 +13,7 @@ tags:
 > 什麼是節點？
 {:.note}
 
-首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](https://vc2tea.com/whats-shadowsocks/)，簡單來講，IPv6 節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
+首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](https://vc2tea.com/whats-shadowsocks/)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
 
 > 鏈接形式
 {:.filename}
@@ -32,28 +32,12 @@ Encryption: aes-128-cfb
 
 客戶端配置：
 
-![](http://telegra.ph/file/f17567e9fdca7ca96926b.png)
+![](http://telegra.ph/file/f17567e9fdca7ca96926b.png){:.center-image}
 
 > IPv4 公共免費節點
 {:.note}
 
-Google Hosts 項目維護的兩個公共 ss 節點及 Telegram socks5 代理
-
-> Google Hosts
-{:.filename}
-```
-https://github.com/googlehosts/hosts/wiki/%E5%AE%9E%E9%AA%8C%E5%AE%A4-Laboratory#shadowsocks
-```
-
-這是一條 ssr 訂閱鏈接，打開你的 ssr 客戶端，選擇訂閱，添加這條訂閱鏈接，然後升級訂閱即可。
-
-> ssrshare.com
-{:.filename}
-```
-https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
-```
-
-其余公共節點站
+公共節點站
 
 > 節點分享站 / 密碼定時更新
 {:.filename}
@@ -64,6 +48,22 @@ SS節點分享站: https://freess.cx/#portfolio-preview (Free SS 每24個小時�
 逗比分享: https://doub.bid/sszhfx/ (鏡像站點，國內通行，三天更新)
 逗比分享: https://doub.bid/sszhfx/ (網站已被屏蔽，需機智上網，不作為第一選擇，備用)
 SS / SSR 節點分享站: https://global.ishadowx.net/ (iShadow 每六個小時更新密碼，速度快)
+```
+
+Google Hosts 項目維護的兩個公共 ss 節點及 Telegram socks5 代理
+
+> Google Hosts
+{:.filename}
+```
+https://github.com/googlehosts/hosts/wiki/%E5%AE%9E%E9%AA%8C%E5%AE%A4-Laboratory#shadowsocks
+```
+
+一條 ssr 訂閱鏈接，打開你的 ssr 客戶端，選擇訂閱，添加這條訂閱鏈接，然後升級訂閱即可。
+
+> ssrshare.com
+{:.filename}
+```
+https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 ```
 
 > 註意：這篇文章分享的是免費的公共 IPv4 翻墻節點，如果你可以利用到 IPv6，想尋找 IPv6 節點，請戳這篇文章：[IPv6 Node Share](http://test007.gq/IPV6-node)

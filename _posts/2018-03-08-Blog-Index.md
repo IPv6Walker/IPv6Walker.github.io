@@ -21,6 +21,6 @@ tags:
 
 * 如果你`想要對 Shadowsocks 這個翻墻工具有更多的了解`，你可以從這篇文章開始：[Shadowsocks 簡介](http://test007.gq/ss-intro)
 
-* 如果你`想要尋找免費的 SS 節點`，戳這兒：[FreeNode Share](http://test007.gq/free-node-share)
+* 如果你`想要尋找免費的 SS 節點`，戳這兒：[FreeNode Share](http://test007.gq/Free-node-share)
 
 每篇文章之間按照類別已經通過 `tag` 進行關聯，如果你在桌面瀏覽器查看這個博客，你可以通過博客標題欄的 `TAG` 欄目或者頁面右方的 `Tags` 側欄來進行篩選，如果你在移動端瀏覽器查看，則通過右上角的欄目選擇 `TAG` 進行篩選即可。
