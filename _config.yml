@@ -11,17 +11,19 @@ baseurl: '/'
 
 social:
   #github: 
-  twitter: 
+  twitter: kotaro01_007
+  telegram: test01_007
   #stackoverflow: 
   #linkedin: 
   #codepen: 
   #instagram: 
   #lastfm: 
   rss: feed.xml
-  telegram: test01_007
+
 
 share:
   facebook: true
+  telegram: true
   twitter: true
   gplus: true
   linkedin: true

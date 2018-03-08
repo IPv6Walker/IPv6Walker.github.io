@@ -103,6 +103,14 @@ Bot 的機制體現了 Telegram 開放的特性，大大豐富了 Telegram 的�
 
 [原文](https://livc.io/blog/177)
 
+> More about Telegram
+{:.filename}
+```yml
+同样是聊天工具，Telegram 的这些玩法你或许想试试: http://www.pingwest.com/some-telegram-skills-you-may-want-to-know/
+Telegram Wiki By Fans: http://telegram.wiki/
+Sticker 搜索: http://stickergram.ru/13.html
+```
+
 ## \## 更多
 
 1. 關於代理上網，請參考[機智上網](http://test007.gq/surf-the-real)
