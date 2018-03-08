@@ -106,7 +106,10 @@ Bot 的機制體現了 Telegram 開放的特性，大大豐富了 Telegram 的�
 > More about Telegram
 {:.filename}
 ```yml
+Telegram入门与使用: https://blog.liuboke.com/telegram.html
 同样是聊天工具，Telegram 的这些玩法你或许想试试: http://www.pingwest.com/some-telegram-skills-you-may-want-to-know/
+《一天世界》博客：我订阅的 Telegram 频道和群组: https://zhuanlan.zhihu.com/p/27876119
+Telegram 技巧: http://einverne.github.io/post/2016/07/telegram-review.html#bold
 Telegram Wiki By Fans: http://telegram.wiki/
 Sticker 搜索: http://stickergram.ru/13.html
 ```

@@ -24,10 +24,9 @@
     </li>
     <!--Telegram Share button Start-->
     <!--Created By Merelesson.com-->
-    <!--<a href='https://telegram.me/share/url?url=' onclick='window.open(&apos;https://telegram.me/share/url?url==&apos;+encodeURIComponent(location.href)+&apos;&amp;bodytext=&amp;tags=&amp;text=&apos;+encodeURIComponent(document.title));return false;'
-  rel='nofollow' style='text-decoration:none;' title='Share on Telegram'>
-  <img src='http://telegram.wiki/_media/tips:sharewebsite:share_white.png' style='height:32px; width:82px;' />
-</a>-->
+    <!--<a href='https://telegram.me/share/url?url=' onclick='window.open(&apos;https://telegram.me/share/url?url==&apos;+encodeURIComponent(location.href)+&apos;&amp;bodytext=&amp;tags=&amp;text=&apos;+encodeURIComponent(document.title));return false;' rel='nofollow' style='text-decoration:none;' title='Share on Telegram'>
+      <img src='http://telegram.wiki/_media/tips:sharewebsite:share_white.png' style='height:32px; width:82px;' />
+    </a>-->
     <!--Telegram Share Button End-->
     {% endif %} {% if site.share.telegram %}
     <li class="share-telegram">
@@ -38,6 +37,7 @@
         </span>
       </a>
     </li>
+
     {% endif %} {% if site.share.gplus %}
     <li class="share-google-plus">
       <!--      <a href="https://plus.google.com/share?url={ site.url | append: page.url | url_param_escape }" target="_blank" title="Share on Google Plus">-->
@@ -84,9 +84,6 @@
       </a>
     </li>
     {% endif %}
-
-
-
   </ul>
 </div>
 {% endif %}
