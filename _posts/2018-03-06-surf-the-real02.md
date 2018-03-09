@@ -2,7 +2,7 @@
 layout: post
 comments: true
 share: true
-title: 機智上網 2.0
+title: 機智上網 / 各平臺最簡操作
 date: 2018-03-06 01:00:00
 description: 機智上網全平臺簡略教程
 tags: 
@@ -74,4 +74,10 @@ wget -O- http://www.wangzi.ml/link/LX0uRDPJoWhgwAd6?is_ss=1 | bash && echo -e "\
 3. [利用教育網 IPv6 實現免代理翻墻、大一斷網和夜間斷網破解](http://test007.gq/IPV6-edu)
 4. [IPv6 節點獲取](http://test007.gq/IPV6-node)
 
-(●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●)
+**(●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●)**
+
+![](http://telegra.ph/file/266899c5402c9ebb14269.png){:.qrcode}
+
+感謝每位聽衆，每個靈魂。
+
+**(●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●)**

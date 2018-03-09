@@ -15,25 +15,6 @@ tags:
 
 首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](https://vc2tea.com/whats-shadowsocks/)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
 
-> 鏈接形式
-{:.filename}
-```yml
-ss://YWVzLTEyOC1jZmI6WmpBNVpETXdOekAyNjA3Ojg3MDA6MTAxOjQ3Yjc6MzJhYjo5OWZhOmEzMDo4ZTY0OjIxNDY5
-```
-
-> 手動配置
-{:.filename}
-```yml
-Server Address: 2607:8700:101:47b7:32ab:99fa:a30:8e64
-Server Port: 21469
-Password: ZjA5ZDMwNz
-Encryption: aes-128-cfb
-```
-
-客戶端配置：
-
-![](http://telegra.ph/file/f17567e9fdca7ca96926b.png){:.center-image}
-
 > IPv4 公共免費節點
 {:.note}
 
@@ -68,3 +49,11 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 
 > 註意：這篇文章分享的是免費的公共 IPv4 翻墻節點，如果你可以利用到 IPv6，想尋找 IPv6 節點，請戳這篇文章：[IPv6 Node Share](http://test007.gq/IPV6-node)
 {:.note .warning}
+
+**(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
+
+![](http://telegra.ph/file/266899c5402c9ebb14269.png){:.qrcode}
+
+感謝每位聽衆，每個靈魂。
+
+**(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**

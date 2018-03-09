@@ -99,7 +99,7 @@ Bot 的機制體現了 Telegram 開放的特性，大大豐富了 Telegram 的�
 
 創建 Bot 非常簡單，只要去找機器人老爹 [@BotFather](https://telegram.me/BotFather) 創建，你會得到一串 Token，這將是 Bot 的唯一標識，同時也不能泄露出去。
 
-之後你可以使用喜歡的語言完成開發，GitHub 上很多開發者都對原生 API 進行了封裝，比如 Python 的 [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) 和 Golang 的[telebot](https://github.com/tucnak/telebot)。
+之後你可以使用喜歡的語言完成開發，GitHub 上很多開發者都對原生 API 進行了封裝，比如 Python 的 [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) 和 Golang 的 [telebot](https://github.com/tucnak/telebot)。
 
 [原文](https://livc.io/blog/177)
 
@@ -121,4 +121,10 @@ Sticker 搜索: http://stickergram.ru/13.html
 3. [利用教育網 IPv6 實現免代理翻墻、大一斷網和夜間斷網破解](http://test007.gq/IPV6-edu)
 4. [IPv6 節點獲取](http://test007.gq/IPV6-node)
 
-\(￣︶￣*\)) - \(￣︶￣*\)) - \(￣︶￣*\)) - \(￣︶￣*\))
+**\\(￣︶￣*\\)) - \\(￣︶￣*\\)) - \\(￣︶￣*\\))**
+
+![](http://telegra.ph/file/266899c5402c9ebb14269.png){:.qrcode}
+
+感謝每位聽衆，每個靈魂。
+
+**\\(￣︶￣*\\)) - \\(￣︶￣*\\)) - \\(￣︶￣*\\))**
