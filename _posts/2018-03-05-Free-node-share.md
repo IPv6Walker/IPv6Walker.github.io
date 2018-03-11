@@ -13,7 +13,7 @@ tags:
 > 什麼是節點？
 {:.note}
 
-首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](https://vc2tea.com/whats-shadowsocks/)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
+首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](http://test007.gq/ss-intro)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
 
 > IPv4 公共免費節點
 {:.note}
