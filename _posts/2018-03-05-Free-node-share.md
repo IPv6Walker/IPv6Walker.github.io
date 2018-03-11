@@ -15,6 +15,8 @@ tags:
 
 首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](http://test007.gq/ss-intro)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
 
+---
+
 > IPv4 公共免費節點
 {:.note}
 
@@ -47,6 +49,8 @@ https://github.com/googlehosts/hosts/wiki/%E5%AE%9E%E9%AA%8C%E5%AE%A4-Laboratory
 https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 ```
 
+---
+
 > 註意：這篇文章分享的是免費的公共 IPv4 翻墻節點，如果你可以利用到 IPv6，想尋找 IPv6 節點，請戳這篇文章：[IPv6 Node Share](http://test007.gq/IPV6-node)
 {:.note .warning}
 
@@ -57,3 +61,5 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 感謝每位聽衆，每個靈魂。
 
 **(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
+
+---

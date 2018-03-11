@@ -14,26 +14,38 @@ tags:
 * TOC
 {:toc}
 
+---
+
 ## Shadowsocks / SS 
 
 Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-cmd)
+
+---
 
 ### Windows
 
 > [下載](http://www.wangzi.ml/ssr-download/ss-win.zip)，解壓，運行程序，導入節點：
  復制[這裏](http://telegra.ph/FreeNode-Share-12-31)的一個 SS 節點，然後右鍵小飛機 -- 從剪貼板導入  URL
 
+---
+
 ### MacOS
 
 > [下載](http://www.wangzi.ml/ssr-download/ss-mac.zip)，安裝，運行程序，小飛機上右鍵服務器列表子菜單的 `“從剪貼板復制地址”` 導入[這裏](http://telegra.ph/FreeNode-Share-12-31)的一個 SS 節點，然後選擇一個合適的服務器，更新一下 PAC ，然後開啟系統代理即可機智上網
+
+---
 
 ### iOS
 
 > 推薦下載 SuperWIngy, AppStore 搜索下載即可。
 
+---
+
 ### Android
 
 > [下載](http://www.wangzi.ml/ssr-download/ss-android.apk)，然後安裝，復制[這裏](http://telegra.ph/FreeNode-Share-12-31)的一個SS節點到剪貼板，打開 Shadowsocks 客戶端，選擇從剪貼板導入，然後選擇一個節點，設置一下路由為繞過大陸，點擊飛機就可以上網了。
+
+---
 
 ### 路由器
 
@@ -57,6 +69,8 @@ wget -O- http://www.wangzi.ml/link/LX0uRDPJoWhgwAd6?is_ss=1 | bash && echo -e "\
 
 執行完畢以後就可以到路由器的設置面板裏隨意選擇 Shadowsocks 服務器進行連接了。
 
+---
+
 ## 各平臺軟件下載鏈接匯總
 
 (ง •_•)ง (ง •_•)ง (ง •_•)ง (ง •_•)ง
@@ -67,12 +81,16 @@ wget -O- http://www.wangzi.ml/link/LX0uRDPJoWhgwAd6?is_ss=1 | bash && echo -e "\
 
 [Shadowsocks-Mac](http://www.wangzi.ml/ssr-download/ss-mac.zip)
 
+---
+
 ### 更多
 
 1. 關於代理上網，請參考[機智上網](http://test007.gq/surf-the-real)
 2. [Telegram 入門](http://test007.gq/Telegram)
 3. [利用教育網 IPv6 實現免代理翻墻、大一斷網和夜間斷網破解](http://test007.gq/IPV6-edu)
 4. [IPv6 節點獲取](http://test007.gq/IPV6-node)
+
+---
 
 **(●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●)**
 
@@ -81,3 +99,5 @@ wget -O- http://www.wangzi.ml/link/LX0uRDPJoWhgwAd6?is_ss=1 | bash && echo -e "\
 感謝每位聽衆，每個靈魂。
 
 **(●ˇ∀ˇ●) - (●ˇ∀ˇ●) - (●ˇ∀ˇ●)**
+
+---

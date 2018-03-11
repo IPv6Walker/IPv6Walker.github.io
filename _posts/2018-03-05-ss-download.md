@@ -17,11 +17,15 @@ tags:
 
 [Shadowsocks-Mac](http://www.wangzi.ml/ssr-download/ss-mac.zip)
 
+---
+
 更多關於 ss ->
 
 1. [Shadowsocks 簡介](http://test007.gq/ss-intro)
 2. Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-cmd)
 3. Shadowsocks 各平臺客戶端[下載頁面](http://test007.gq/ss-download) \ 本文地址
+
+---
 
 ### More Blogs
 
@@ -30,6 +34,8 @@ tags:
 3. [利用教育網 IPv6 實現免代理翻墻、大一斷網和夜間斷網破解](http://test007.gq/IPV6-edu)
 4. [IPv6 節點獲取](http://test007.gq/IPV6-node)
 
+---
+
 **(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
 
 ![](http://telegra.ph/file/266899c5402c9ebb14269.png){:.qrcode}
@@ -37,3 +43,5 @@ tags:
 感謝每位聽衆，每個靈魂。
 
 **(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
+
+---
