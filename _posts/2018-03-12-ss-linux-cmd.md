@@ -2,33 +2,33 @@
 layout: post
 comments: true
 share: true
-title: Shadowsocks 系列 -- Linux 操作指导
+title: Shadowsocks 系列 -- Linux 操作指導
 date: 2018-03-12 23:00:00
 description: 
 tags:
  - ss
- - 操作指导
+ - 操作指導
 ---
 
 ![](http://telegra.ph/file/901fff5e3b7611cfeb4d7.png)
 
 ---
 
-首先，戳[这里](https://github.com/shadowsocks/shadowsocks-qt5/releases)下载 Shadowsocks-qt5
+首先，戳[這裏](https://github.com/shadowsocks/shadowsocks-qt5/releases)下載 Shadowsocks-qt5
 
-这是一款 Shadowsocks 在 Linux 平台的 GUI 客户端。
+這是一款 Shadowsocks 在 Linux 平臺的 GUI 客戶端。
 
-项目主页地址戳：[这儿](https://github.com/shadowsocks/shadowsocks-qt5)
+項目主頁地址戳：[這兒](https://github.com/shadowsocks/shadowsocks-qt5)
 
-下面先展示一下在 elementaryOS 的操作步骤，因为会比 Ubuntu 多一个赋权的环节。
+下面先展示一下在 elementaryOS 的操作步驟，因為會比 Ubuntu 多一個賦權的環節。
 
 ---
 
-> ElementaryOS 操作步骤
+> ElementaryOS 操作步驟
 
-下载完成后，右键点击 Shadowsocks-Qt5-3.0.0-x86_64.AppImage，选择 `属性` --> `权限`
+下載完成後，右鍵點擊 Shadowsocks-Qt5-3.0.0-x86_64.AppImage，選擇 `屬性` --> `權限`
 
-可以看到，这是的软件权限值是 ` -664`  (●'◡'●)
+可以看到，這是的軟件權限值是 ` -664`  (●'◡'●)
 
 ![](http://telegra.ph/file/74c61dcd8c50a7be3f247.png)
 
@@ -36,27 +36,27 @@ tags:
 
 ---
 
-将所有者、群组、任何人的执行权限勾选上，下方显示权限值为 `-777`
+將所有者、群組、任何人的執行權限勾選上，下方顯示權限值為 `-777`
 
 ![](http://telegra.ph/file/8f74aa3837e397ff411b7.png)
 
 ---
 
-点击关闭，然后右键点击 Shadowsocks-Qt5，点击 `运行` / 或者直接双击软件运行 （￣︶￣）↗
+點擊關閉，然後右鍵點擊 Shadowsocks-Qt5，點擊 `運行` / 或者直接雙擊軟件運行 （￣︶￣）↗
 
 ![](http://telegra.ph/file/963355656b33becd9b3af.png)
 
 ---
 
-刚进入是没有配置信息的  (+_+)?
+剛進入是沒有配置信息的  (+_+)?
 
-这时候我们首先要有节点，也就是[这里](http://test007.gq/ss-intro)所说的 ss-server 给出的配置信息啦
+這時候我們首先要有節點，也就是[這裏](http://test007.gq/ss-intro)所說的 ss-server 給出的配置信息啦
 
-于是，我們先進入 [Free node share](http://test007.gq/Free-node-share) 獲取一個節點
+於是，我們先進入 [Free node share](http://test007.gq/Free-node-share) 獲取一個節點
 
-获取成功之后，我们现在把它导入到 Shadowsocks-Qt5 中。
+獲取成功之後，我們現在把它導入到 Shadowsocks-Qt5 中。
 
-如果你获取的是直接的配置信息，你需要手动的把配置信息输入。
+如果你獲取的是直接的配置信息，你需要手動的把配置信息輸入。
 
 > 手動配置示例
 {:.filename}
@@ -73,7 +73,7 @@ Encryption: aes-128-cfb
 
 ---
 
-如果你获取到的是一个二维码，你可以选择扫描屏幕中的二维码。
+如果你獲取到的是一個二維碼，你可以選擇掃描屏幕中的二維碼。
 
 ![](http://telegra.ph/file/722f17ee6140bd538feeb.png)
 
@@ -81,17 +81,17 @@ Encryption: aes-128-cfb
 
 ---
 
-测试一下延迟 \\(￣︶￣*\\))
+測試一下延遲 \\(￣︶￣*\\))
 
 ![](http://telegra.ph/file/f4dfd75086d091263da0d.png)
 
-OK. 这样我们就完成了 ElementaryOS 系统的翻墙大任了。 ✌
+OK. 這樣我們就完成了 ElementaryOS 系統的翻墻大任了。 ✌
 
 ---
 
 > Ubuntu 操作
 
-如果你有关注 linux 发行版的话，你会发现，elementaryOS 其实是基于 Ubuntu 开发的，所以在 Ubuntu 下的翻墙操作跟上面基本是一致的2333，只是在 Ubuntu 系统我们不需要给 Shadowsocks-Qt5 赋权就能够直接双击软件运行呢。
+如果你有關註 linux 發行版的話，你會發現，elementaryOS 其實是基於 Ubuntu 開發的，所以在 Ubuntu 下的翻墻操作跟上面基本是一致的2333，只是在 Ubuntu 系統我們不需要給 Shadowsocks-Qt5 賦權就能夠直接雙擊軟件運行呢。
 
 ---
 
