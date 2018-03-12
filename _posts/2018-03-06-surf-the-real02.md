@@ -37,7 +37,7 @@ Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](http://test0
 
 ### iOS
 
-> 推薦下載 SuperWIngy, AppStore 搜索下載即可。
+> 请在 app store 搜索 [Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8) 下载。备用可使用 Superwingy.
 
 ---
 

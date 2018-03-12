@@ -16,6 +16,30 @@ tags:
 
 首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](http://test007.gq/ss-intro)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
 
+> 鏈接形式
+{:.filename}
+```yml
+ss://YWVzLTEyOC1jZmI6WW91cnBhc3N3b3JkQFNlcnZlci5JUC5BZGRyZXNzOjQ0Mw==
+```
+
+二维码形式
+
+![](http://telegra.ph/file/0fbd372b92b0caa6cb3c5.png)
+
+
+> 手動配置示例
+{:.filename}
+```yml
+Server Address: Server's IPv6 Address
+Server Port: 443
+Password: Your_password
+Encryption: aes-128-cfb
+```
+
+客戶端配置：
+
+![](http://telegra.ph/file/1b4f99bac63edc758051f.jpg)
+
 ---
 
 > IPv4 公共免費節點

@@ -2,11 +2,12 @@
 layout: post
 comments: true
 share: true
-title: shadowsocks 操作指導
+title: Shadowsocks 系列 -- Windows 操作指导
 date: 2018-03-05 02:00:00
 description: shadowsocks-Windows 單步驟解析
 tags: 
  - ss
+ - 操作指导
 ---
 
 點擊[這裏](http://test007.gq/ss-download)，下載對應平臺的軟件。
@@ -23,7 +24,7 @@ tags:
 
 ![](http://telegra.ph/file/f3d5d84431d90ddd59a76.png)
 
-此時，我們先進入 [IPv6 節點獲取頁面](http://test007.gq/IPV6-node) 獲取一個節點，然後找到桌面任務欄右下角 ↘ 
+此時，我們先進入 [Free node share](http://test007.gq/Free-node-share) 獲取一個節點，然後找到桌面任務欄右下角 ↘ 
 
 ![](http://telegra.ph/file/e78750f3d19d07ecbcdfc.png)
 
@@ -79,7 +80,7 @@ tags:
 
 1. [Shadowsocks 簡介](http://test007.gq/ss-intro)
 2. Shadowsocks 各平臺客戶端[下載頁面](http://test007.gq/ss-download)
-3. Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-cmd) \ 本文地址
+3. Shadowsocks Linux 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-linux-cmd)
 
 ---
 

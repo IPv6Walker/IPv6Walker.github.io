@@ -2,9 +2,9 @@
 layout: post
 comments: true
 share: true
-title: Blog Index
-date: 2018-03-08 01:00:00
-description: 博客導引 / 入口
+title: 博客索引 -- Blog Index
+date: 2018-03-12 23:30:00
+description: 博客導引 / 入口，新来请先看这篇文章
 tags:
  - Index
 ---

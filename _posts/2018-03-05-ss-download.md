@@ -2,7 +2,7 @@
 layout: post
 comments: true
 share: true
-title: shadowsocks download page
+title: Shadowsocks 系列 --  下载
 date: 2018-03-05 03:00:00
 description: shadowsocks 各平臺下載匯總
 tags: 
@@ -11,12 +11,23 @@ tags:
 
 各平臺軟件下載鏈接匯總：
 
-[Shadowsocks-Windows](https://github.com/shadowsocks/shadowsocks-windows/releases)（ Github主頁 / 更新中，[備用鏈接](http://www.wangzi.ml/ssr-download/ss-win.zip)）
+Windows 请戳：
+ - [Shadowsocks-Windows](https://github.com/shadowsocks/shadowsocks-windows/releases)（ Github 主頁 / 更新中，[備用鏈接](http://www.wangzi.ml/ssr-download/ss-win.zip)）
+ - 
 
-[Shadowsocks-Android](https://github.com/shadowsocks/shadowsocks-android/releases)（ Github主頁 / 更新中，[備用鏈接](http://www.wangzi.ml/ssr-download/ss-android.apk)）
+安卓用户：[Shadowsocks-Android](https://github.com/shadowsocks/shadowsocks-android/releases)（ Github 主頁 / 更新中，[備用鏈接](http://www.wangzi.ml/ssr-download/ss-android.apk)）
 
-[Shadowsocks-Mac](http://www.wangzi.ml/ssr-download/ss-mac.zip)
+iOS 用户请在 app store 搜索 [Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8) 下载。
 
+Mac 用户：
+ - [Shadowsocks-Mac](http://www.wangzi.ml/ssr-download/ss-mac.zip)
+ - [Shadowsocks X](https://itunes.apple.com/app/shadowsocks-x/id1295053131?ls=1&mt=8)
+
+Linux 用户：
+ - [Shadowsocks-qt5](https://github.com/shadowsocks/shadowsocks-qt5/releases)
+ - 示例教程已更新，戳 -> [这里](http://test007.gq/ss-linux-cmd)。
+
+备份链接：[Shadowsocks X 主页](https://www.sednax.com/)
 ---
 
 更多關於 ss ->
