@@ -44,7 +44,7 @@ tags:
 
 ![](http://telegra.ph/file/2d4c534d882ef4087040e.png)
 
-選擇全局模式並確認 \(￣︶￣*\))
+選擇全局模式並確認 \\(￣︶￣*\\))
 
 ![](http://telegra.ph/file/9caf39dd9b43ad28a3ea0.png)
 
