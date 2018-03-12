@@ -24,11 +24,11 @@ tags:
 
 ---
 
-> ElementaryOS 操作步驟
+> ElementaryOS 下的操作步驟
 
 下載完成後，右鍵點擊 Shadowsocks-Qt5-3.0.0-x86_64.AppImage，選擇 `屬性` --> `權限`
 
-可以看到，這是的軟件權限值是 ` -664`  (●'◡'●)
+可以看到，這是的軟件權限值是  `-664`  (●'◡'●)
 
 ![](http://telegra.ph/file/74c61dcd8c50a7be3f247.png)
 
@@ -50,7 +50,7 @@ tags:
 
 剛進入是沒有配置信息的  (+_+)?
 
-這時候我們首先要有節點，也就是[這裏](http://test007.gq/ss-intro)所說的 ss-server 給出的配置信息啦
+這時候我們首先要有節點，也就是 [這裏](http://test007.gq/ss-intro) 所說的 ss-server 給出的配置信息啦
 
 於是，我們先進入 [Free node share](http://test007.gq/Free-node-share) 獲取一個節點
 
@@ -73,7 +73,7 @@ Encryption: aes-128-cfb
 
 ---
 
-如果你獲取到的是一個二維碼，你可以選擇掃描屏幕中的二維碼。
+如果你獲取到的是一個二維碼，你也可以通過掃描屏幕中的二維碼來導入節點。
 
 ![](http://telegra.ph/file/722f17ee6140bd538feeb.png)
 
@@ -89,7 +89,7 @@ OK. 這樣我們就完成了 ElementaryOS 系統的翻墻大任了。 ✌
 
 ---
 
-> Ubuntu 操作
+> Ubuntu 下的操作步驟
 
 如果你有關註 linux 發行版的話，你會發現，elementaryOS 其實是基於 Ubuntu 開發的，所以在 Ubuntu 下的翻墻操作跟上面基本是一致的2333，只是在 Ubuntu 系統我們不需要給 Shadowsocks-Qt5 賦權就能夠直接雙擊軟件運行呢。
 
