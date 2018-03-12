@@ -2,7 +2,7 @@
 layout: post
 comments: true
 share: true
-title: 機智上網系列 -- 全平台指导
+title: 機智上網系列 -- 全平臺指導
 date: 2018-03-06 01:00:00
 description: 機智上網全平臺簡略教程
 tags: 
