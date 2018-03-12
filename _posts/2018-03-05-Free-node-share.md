@@ -6,6 +6,7 @@ title: 免費的節點分享 / FreeNode Share / IPv4
 description: 分享快樂。
 tags:
  - ss
+ - nodes
 ---
 
 ![alt](http://telegra.ph/file/926d3c4d491a1feb577f4.jpg){:.center-image}

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 share: true
-title: 機智上網 / 各平臺最簡操作
+title: 機智上網系列 -- 全平台指导
 date: 2018-03-06 01:00:00
 description: 機智上網全平臺簡略教程
 tags: 
@@ -18,11 +18,11 @@ tags:
 
 ## Shadowsocks / SS 
 
-Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-cmd)
-
 ---
 
 ### Windows
+
+Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-windows-cmd)
 
 > [下載](http://www.wangzi.ml/ssr-download/ss-win.zip)，解壓，運行程序，導入節點：
  復制[這裏](http://telegra.ph/FreeNode-Share-12-31)的一個 SS 節點，然後右鍵小飛機 -- 從剪貼板導入  URL
