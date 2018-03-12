@@ -93,6 +93,8 @@ OK. 這樣我們就完成了 ElementaryOS 系統的翻墻大任了。 ✌
 
 如果你有關註 linux 發行版的話，你會發現，elementaryOS 其實是基於 Ubuntu 開發的，所以在 Ubuntu 下的翻墻操作跟上面基本是一致的2333，只是在 Ubuntu 系統我們不需要給 Shadowsocks-Qt5 賦權就能夠直接雙擊軟件運行呢。
 
+![](http://telegra.ph/file/fe3d9fca1810eacfd2d9b.png){:.center-image}
+
 ---
 
 大功告成！測試一下... d=====(￣▽￣*)b
