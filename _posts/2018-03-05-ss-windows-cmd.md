@@ -7,7 +7,7 @@ date: 2018-03-05 02:00:00
 description: shadowsocks-Windows 單步驟解析
 tags: 
  - ss
- - 操作指导
+ - 操作指導
 ---
 
 點擊[這裏](http://test007.gq/ss-download)，下載對應平臺的軟件。
