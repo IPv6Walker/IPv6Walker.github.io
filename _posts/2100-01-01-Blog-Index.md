@@ -3,7 +3,7 @@ layout: post
 comments: true
 share: true
 title: 博客索引 -- Blog Index
-date: 2018-03-12 23:30:00
+date: 2100-01-01 23:30:00
 description: 博客導引 / 入口，新来请先看这篇文章
 tags:
  - Index
