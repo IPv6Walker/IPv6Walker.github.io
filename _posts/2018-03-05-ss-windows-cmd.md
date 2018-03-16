@@ -38,7 +38,7 @@ tags:
 
 導入成功！✌
 
-![](http://telegra.ph/file/f17567e9fdca7ca96926b.png)
+![](http://telegra.ph/file/d824ef3ceaac591c53529.png)
 
 接下來開啟 ss 代理服務 （￣︶￣）↗　
 
