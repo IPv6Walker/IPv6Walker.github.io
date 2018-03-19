@@ -23,11 +23,15 @@ tags:
 
 複製 [這裏](https://raw.githubusercontent.com/lennylxx/ipv6-hosts/master/hosts) 的内容 ( `ctrl`{:.key} + `A`{:.key} --> `ctrl`{:.key} + `c`{:.key} 複製全部内容, 然後 `ctrl`{:.key} + `v`{:.key} 粘貼到 hosts 文件裏面 )
 
+![](http://telegra.ph/file/2591c6f9a49722423293a.png){:.center-image}*hosts file*
+
 ---
 
 刷新本地 DNS 緩存 ( `win`{:.key} + `R`{:.key} 打開運行程序, 輸入 `cmd` 打開命令行程序, 再敲入命令: `ipconfig /flushdns` 即可 )
 
 清除瀏覽器 cookies ( 示例: 打開 Chrome, 按下快捷鍵 `ctrl`{:.key} + `shift`{:.key} + `Delete`{:.key} , 選擇 `清除 cookie 及其他網站數據` 即可 )
+
+![](http://telegra.ph/file/8a028204f3ca1c42b7481.jpg){:.center-image}*flush dns*
 
 ---
 
@@ -35,6 +39,21 @@ OK. 嘗試訪問 [Google](https://www.google.com.hk) / [Youtube](https://www.you
 
 ---
 
+> Google
+
+![](http://telegra.ph/file/ad4de590c8a650a662ba9.png)
+
+> Youtube
+
+![](http://telegra.ph/file/6d948d793ed07745bcc2d.png)
+
+> Twitter
+
+![](http://telegra.ph/file/789bcc8293cf9d40cf0d6.png)
+
+---
+
 筆者在嘗試訪問推特的時候遭到了拒絕, 經排查發現, 上面的 hosts 文件裏面, 對應 twitter 的項目解析出來的是 IPv4 的地址, 在 cmd 界面 `ping` 不通, 所以無法訪問. 不過不用擔心, 因爲我們前面已經修改過 DNS, 所以這時候把 hosts 文件裏面對應 twitter 的解析修改一下就可以了. 修改方法: 首先打開 hosts 文件( 打開方法在上面, 記得要用管理員權限 ), 然後按下 `ctrl`{:.key} + `f`{:.key} 開啓文本搜索, 輸入 twitter, 可以找到 twitter 的條目, 將解析為 IPv4(形式: 104.244.42.193 twitter.com )的條目刪掉, 按 `ctrl`{:.key} + `s`{:.key} 快捷鍵保存. 到這一步可能已經可以正常訪問 twitter 了. 你也可以嘗試一下手動修改 hosts 文件的解析, 在 cmd 命令行程序裏面輸入 `ping twitter.com`, 這時候解析出來的 IP 地址應該是 IPv6 形式的, 按照 `240c:f:1:4000:9999 twitter.com` 加入到 hosts 文件中即可.
 
 當然, 在穩定性上這種方法仍有很大的幾率遭遇訪問失敗, 而且支持 ipv6 的網站仍在少數.
+
