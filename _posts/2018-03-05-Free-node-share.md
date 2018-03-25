@@ -79,12 +79,10 @@ https://raw.githubusercontent.com/ImLaoD/sub/master/ssrshare.com
 > 註意：這篇文章分享的是免費的公共 IPv4 翻墻節點，如果你可以利用到 IPv6，想尋找 IPv6 節點，請戳這篇文章：[IPv6 Node Share](http://test007.gq/IPV6-node)
 {:.note .warning}
 
-**(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
+### Shadowsocks 系列
 
-![](http://telegra.ph/file/266899c5402c9ebb14269.png){:.qrcode}
-
-感謝每位聽衆，每個靈魂。
-
-**(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
-
----
+1. [Shadowsocks 簡介](http://test007.gq/ss-intro)
+2. [Shadowsocks 各平臺客戶端下載頁面](http://test007.gq/ss-download)
+3. [Shadowsocks 操作指導 -- Windows 篇](http://test007.gq/ss-windows-cmd)
+4. [Shadowsocks 操作指導 -- Linux 篇](http://test007.gq/ss-linux-cmd)
+5. [Shadowsocks 節點分享](http://test007.gq/Free-node-share)

@@ -2,12 +2,12 @@
 layout: post
 comments: true
 share: true
-title: Shadowsocks 系列 -- Windows 操作指导
+title: Shadowsocks 操作指導 -- Windows 篇
 date: 2018-03-05 02:00:00
 description: shadowsocks-Windows 單步驟解析
 tags: 
  - ss
- - 操作指導
+ - 教程
 ---
 
 點擊[這裏](http://test007.gq/ss-download)，下載對應平臺的軟件。
@@ -76,29 +76,10 @@ tags:
 
 ---
 
-更多關於 ss ->
+### Shadowsocks 系列
 
 1. [Shadowsocks 簡介](http://test007.gq/ss-intro)
-2. Shadowsocks 各平臺客戶端[下載頁面](http://test007.gq/ss-download)
-3. Shadowsocks Linux 客戶端的單步指導請參考[這篇文章](http://test007.gq/ss-linux-cmd)
-
----
-
-### More Blogs
-
-1. 關於代理上網，請參考[機智上網](http://test007.gq/surf-the-real)
-2. [Telegram 入門](http://test007.gq/Telegram)
-3. [利用教育網 IPv6 實現免代理翻墻、大一斷網和夜間斷網破解](http://test007.gq/IPV6-edu)
-4. [IPv6 節點獲取](http://test007.gq/IPV6-node)
-
----
-
-**(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
-
-![](http://telegra.ph/file/266899c5402c9ebb14269.png){:.qrcode}
-
-感謝每位聽衆，每個靈魂。
-
-**(。・∀・)ノ - (。・∀・)ノ - (。・∀・)ノ**
-
----
+2. [Shadowsocks 各平臺客戶端下載頁面](http://test007.gq/ss-download)
+3. [Shadowsocks 操作指導 -- Windows 篇](http://test007.gq/ss-windows-cmd)
+4. [Shadowsocks 操作指導 -- Linux 篇](http://test007.gq/ss-linux-cmd)
+5. [Shadowsocks 節點分享](http://test007.gq/Free-node-share)

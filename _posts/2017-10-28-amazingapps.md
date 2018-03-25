@@ -33,8 +33,6 @@ share: true
 
 ## Intro
 
-> 文章首发于[虫部落](http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=3082&fromuid=4208)
-
 这是 Github 上一个向人们推荐各大操作系统里实用APP的项目
 
 目前已支持的操作系统有：Windows, macOS, Android【Linux, IOS, Firefox Addons 都在制作进程中】
