@@ -1,0 +1,281 @@
+---
+layout: post
+title: 检索辅助之工具流
+date: 2018-05-11
+description: 检索的核心在于精准的定位需求。工具则是最佳听众。
+tags:
+ - 收录
+---
+
+![](https://ws1.sinaimg.cn/large/78905b2cly1fqh1g0uo1kj21hc0u0u0z.jpg)
+
+检索的核心在于精准的定位需求。工具则是最佳听众。
+    
+<!--more-->
+
+建议使用浏览器自带的搜索功能: `CTRL`{: .key} + `F`{: .key} 进行检索
+{:.note}
+
+05-11更新：精简了文章收录，将更多的收录站点放在了分享的文件中，戳[这儿](https://share.weiyun.com/5Boc47z)下载
+
+---
+
+### # 搜索
+
+| 名称 | 简介
+|-|-
+| [虫部落搜索](http://search.chongbuluo.com) | 大概是中文圈最好用的搜索引擎导航了吧
+| [虫部落学术搜索](http://scholar.chongbuluo.com/) | 大地表最强学术搜索引擎
+| [Learn Anything](/LearnAnything) | 知识地图 / [官网](https://learn-anything.xyz/)
+| [AA 搜索](http://lackar.com/aa/) | 桌面平台多搜索引擎大集合!
+
+注意：这里只收录了书签中的几个精选站点，更多的搜索类别如二次元画像/问答/论文/诗歌请参见文首下载。
+
+---
+
+### # 应用
+
+| 名称 |  简介
+|-|-|-
+| [Telegram](/Telegram-intro) | 大概是世界上最好用的通讯软件了吧
+| [Amazing-Apps](/amazingapps) | 三个平台都有什么良心软件?
+| [Uzer.me](https://uzer.me) | PS 太大? Mac 用 Windows 的应用不方便? Uzer.me 帮你解决快速办公问题
+| [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor) | Windows 网络速度监控工具
+| [Jupyter Notebook](http://jupyter.org/) | 文学编程 / [介绍](https://www.jianshu.com/p/86117613b7a6)
+| [Typora](https://typora.io/) | 最简洁的编辑器之一，功能也非常完善
+| [Yu Writer](https://ivarptr.github.io/yu-writer.site/) | 功能强大，美观的编辑器
+
+
+---
+
+### # 网站
+
+| 名称 | 简介
+|-|-
+| [Telegra.ph](/telegraphintro) | 最简单页文章编辑发布平台, 匿名, eg. 快速笔记及多设备查看
+| [ZeroNet](https://qq.neocities.org/) | 传说中的零网. 全新的 P2P 网站，提供不受政府管制的博客 / 论坛平台
+| [国外网站收录](http://www.egouz.com/) | 走出国门，了解真正的互联网情况
+
+05-11更新日志：对大多数站点进行了分类汇总
+
+---
+
+### ## 博客
+
+| 名称 | 简介
+|-|-
+| [阮一峰的网络日志](http://www.ruanyifeng.com/blog/) | 技术 / 哲思 / 时事, 博主的文字清浅而理智, 值得一读
+| [编程随想](https://program-think.blogspot.com/) | 网络安全 / 时政 / 思想, 圈外最广为人知的博客之一, 已被封禁, 需[科学上网](/科学上网)
+| [酷壳](https://coolshell.cn) | 技术 / 编程, 宣言是享受编程和技术带来的快乐
+| [一天世界](https://blog.yitianshijie.net/) | 一天世界，昆乱不挡。不鳥萬如一主理。IPN 出品。
+| [Wulfric](http://wulfric.me/) | 兼具文学和技术的精致博客
+| [Airing](http://ursb.me/) | 技术 / APP / 数据分析, 博主的作品展示
+| [I'm TulatriX](https://imtx.me/) | 图拉鼎，或 Tualatrix Chou。Ubuntu Tweak 的开发者
+| [技术成就梦想](http://sparkgis.com) | 技术文章的分享博客
+| [...Up to Mortality](https://www.soimort.org/) | 艺术杂志一样的博客
+| [数据结构和算法目录](https://www.jianshu.com/p/38853c044156) | 用 Javascript 实现的数据结构教程
+
+---
+
+### ## 资源
+
+| 名称 | 简介
+|-|-
+| [资源收录站](https://oneload.tk/) | 电子书支援计划群友分享的资源站
+| [天雪PT站](https://ipv6.skyeysnow.com/) | 动漫PT和网盘资源 / 限时开放注册
+| [不死鸟 - 分享为王](https://lai.yuweining.cn/) | 国内相当知名的资源站
+
+---
+
+### ## 艺术
+
+| 名称 | 简介
+|-|-
+| [Artstor](http://www.artstor.org/) | 艺术家收录
+| [Rafael-Araujo](http://www.rafael-araujo.com/) | 手绘几何艺术的巅峰之作
+| [Actualités Mécénat Musical Société Générale](https://www.mecenatmusical.societegenerale.com/#) | 声乐演奏在线网站
+| [【AnimeTaste】品赏艾尼墨，全球动画精选](http://animetaste.net/) | 个人创作的动画收录
+
+---
+
+### ## 设计
+
+| 名称 | 简介
+|-|-
+| [Color-Hex](http://www.color-hex.com/) | 色彩 / 设计
+| [Type is Beautiful](https://thetype.com/) | 字体的故事
+| [Form Follows Function](http://fff.cmiscm.com/#!/main) | 可视化呈现大收录！
+| [简单美观的文字标签云组件 / 不如](http://ibruce.info/2014/02/10/the-most-beautiful-word-cloud/) | 标签云的制作分享
+| [Pixabay](https://pixabay.com/) | 无版权图片源
+
+---
+
+### ## 阅读
+
+| 名称 | 简介
+|-|-
+| [端媒体](https://theinitium.com/) | 大概是中文圈做得最精致的媒体平台了吧
+| [Medium](https://medium.com/) | 世界知名的博客发布平台, 社会新闻的优质阅读源
+| [国芳多语对照字库](http://www.xieguofang.cn/Multilingual%20Corpus/Corpus_Contents001.htm) | 经典原著的多语对照阅读
+| [编程随想收集的电子书](https://github.com/programthink/books) | 电子书, 经过编程随想精心的挑选, 附有有详细的介绍
+| [扫地僧的橱柜](https://www.ebooksplan.club/) | 道德判你死刑, 哲学证你无罪
+| [我的小书屋](http://mebook.cc/) | 排版优良, 多收录于百度网盘, 配合多看最佳
+| [青空文库](https://www.aozora.gr.jp/index.html) | インターネットの電子図書館、青空文庫へようこそ。
+| [eBooksPlan](https://www.ebooksplan.org) | 密钥如题；独立、共享、开放
+| [Vol.moe](http://vol.moe/) | Kindle漫畫/Kobo漫畫/epub漫畫
+
+---
+
+### ## 语言
+
+| 名称 | 简介
+|-|-
+| [巧克力单词](http://www.learningchocolate.com/) | 大概是最好用的线上单词学习平台了
+| [日语语法指南](http://res.wokanxing.info/jpgramma/index.html) | 大概是最简洁的日语语法指南了
+| [Online Writing Support](https://webapps.towson.edu/ows/index.asp) | Towson University 的英语规范用语指南
+| [二语习得](/Oral-English) | Stephen Krashen 关于二语习得最令人印象深刻的讲解
+
+---
+
+### ## 趣味
+
+| 名称 | 简介
+|-|-
+| [Semantris](https://research.google.com/semantris/) | 字谜形式的俄罗斯方块
+| [720云全景虚拟现实社区](http://720yun.com/) | 从各种惊人的角度身临其境
+
+---
+
+### ## 图床
+
+| 名称 | 简介
+|-|-
+| [Telegra.ph](http://telegra.ph/) | Telegra.ph 可以作为一个匿名的图床, 支持所有格式的图片, gif, 5mb以内的视频, 测试速度流畅, **已支持 https ！**
+| [PicGo](https://github.com/Molunerfinn/PicGo) | 优秀的开源图床管理工具
+| [微博图床](https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf) | 基于微博相册开发的 Chrome 插件, 速度一流, 支持批量导入, https, 一键Markdown, 历史记录等丰富功能. [项目地址](https://github.com/Aqours/Weibo-Picture-Store)
+| [简单图床](https://simimg.com/) | 支持 https 和快速格式的图片链接, 注册可查看上传历史
+| [爱信息图床](https://tu.aixinxi.net/index.php) | 可以看作网盘的图床，支持文件外链
+
+---
+
+**以下分属技术条目下的类别**
+
+### ## 编程
+
+| 名称 | 简介
+|-|-
+| [程序员导航](http://code.giffox.com/) | Programming is like sex: one mistake and you're providing support for a lifetime. -- Michael Sinz
+| [FreeCodeCamp](https://www.freecodecamp.org/) | FreeCodeCamp（以下简称FCC）是全球最火的Web开发学习平台，鼓励Learning by Doing的学习方式。你可以在这里学习到前端、后端、数据可视化等几乎涵盖所有的Web开发知识 / [合集](https://zhuanlan.zhihu.com/p/22841310)
+
+---
+
+### ## 安全
+
+| 名称 | 简介
+|-|-
+| [SECURITY IN A BOX - 电子安全工具与指引](https://securityinabox.org/zh/) | 安全工具箱是给予全世界行动者和维权人士阅读的数据安全指引手册
+| [otr.to](https://otr.to/) |  otr.to 在线网页版加密聊天。用的otr加密，前面还一层https加密，当初jacob appelbaum在欧洲黑客大会上说FBI和NSA目前也无法破解。传文件也可以
+| [dropfile.to](https://dropfile.to/) | 传文件 / 至于安全不安全，反正绝对比我国的app靠谱些。 （文件上传不保证网站可靠性所以最好用7zip加密，网站的意义在于24小时自动删除，传输上靠谱。
+
+---
+
+### ## 开源
+
+| 名称 | 简介
+|-|-
+| [List of Free Learning Resources](https://github.com/EbookFoundation/free-programming-books/) | 开源的免费技术资料 / Star:103621 / Fork:26359
+| [技术面试 - 笔记](https://github.com/CyC2018/Interview-Notebook) | 技术面试需要掌握的基础知识整理 / Star:14847 / Fork:3673
+| [🍿 A cross-browser library of CSS animations.](https://github.com/daneden/animate.css) | 跨浏览器的CSS动画库
+
+---
+
+### ## 教程
+
+| 名称 | 简介
+|-|-
+| [鸟哥的 Linux 私房菜](http://linux.vbird.org) | 中文圈最强大的 Linux 教程
+| [廖雪峰系列教程](https://www.liaoxuefeng.com/) | Python / Git / Javascript, 三门语言的最佳入门系列, 推荐 Git
+| [数字图像处理](http://accu.cc/) | Mohanson 整理, 通过 Python 语言实现的冈萨雷斯教材代码
+| [cisco 网络教程](http://cisco.szpt.edu.cn/) | cisco 提供的网络学习和实践平台
+| [Docker - 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/) | 优秀的 Docker 开源教程, 持续更新中
+| [博客专家精选集](https://www.kancloud.cn/special/bloger) | 各大博客平台的专栏作者的力作, 看云在线文档平台
+| [知道创宇研发技能表v3.1](http://blog.knownsec.com/Knownsec_RD_Checklist/index.html) | 本技能表为知道创宇研发工程师的技能树集合，是的，很庞大
+
+---
+
+### # News
+
+| 名称 | 简介
+|-|-
+| [少数派](https://sspai.com/) | 科技和应用资讯
+| [Solidot: 奇客的资讯，重要的东西](https://www.solidot.org/) | 国内高质量的科技资讯平台
+| [好奇心研究所_好奇心日报](https://www.qdaily.com) | 好奇心是探索的开始
+
+---
+
+### # IPv6
+
+| 名称 | 简介
+|-|-
+| [IPv6导航](http://dns64.6box.cn/sharkdns/ipv6daohang) |  精选的 IPv6 导航站点
+| [国外支持 IPv6 的主流站点](http://telegra.ph/IPv6-Bookmarks-04-19) | 如题。
+| [IPv6应用实验平台](http://6plat.org/) | IPv6应用实验平台(以下简称“6Plat”)是由下一代互联网国家工程中心(CFIEC)发起的实验性的IPv6过渡技术测试
+| [IPv6 link](http://www.ipv6link.cn/) | 中国 IPv6 网址之家 / 索引
+| [广州市交通技师学院 IPv6 站](http://ipv6.gcti.edu.cn/) | 有几篇质量不错的 IPv6 文章
+| [光影传奇 / 南开大学影视网](http://movie.nku.cn/) | 南开大学自建的影视站点，支持流媒体播放
+| [清华大学IPTV](https://iptv.tsinghua.edu.cn) | 清华大学提供的 IPv6 在线网络电视
+| [东北大学 IPv6 视频直播测试站](https://hdtv.neu6.edu.cn/) | IPv6 电视直播
+| [六导航](http://www.mashang6.edu.cn/) | 列表式的 IPv6 索引条目
+| [HE.net](https://www.he.net/) | IPv6 Tunnel 接入提供商 —— Hurrican Electric
+
+---
+
+### # 科学上网
+
+| 名称 | 简介
+|-|-
+| [IPv6 系列](/tag/IPv6) | IPv6 的妙用
+| [科学上网导引](/科学上网) | 科学上网简单教程入口
+| [Shadowsocks 原理](https://www.barretlee.com/blog/2016/08/03/shadowsocks/) | Shadowsocks 原理介绍
+| [Shadowsocks各平台操作指导](http://telegra.ph/GFW-TOTAL-12-31) | Windows / MacOS / Linux / iOS / Android 翻墙简单教程
+| [Shadowsocks + Win](http://telegra.ph/SS-CMD-03-19) | Windows 平台单步骤解析
+| [Google Hosts 实验室](https://github.com/googlehosts/hosts/wiki/%E5%AE%9E%E9%AA%8C%E5%AE%A4-Laboratory#shadowsocks) | 分享免费高可用的 Shadowsocks 节点和 Telegram Socks5代理
+| [Debian下shadowsocks-libev一键安装脚本 / 秋水逸冰](https://teddysun.com/358.html) | 秋水逸冰关于ss的便携脚本
+
+---
+
+### # 互联网审查
+
+| 名称 | 简介
+|-|-
+| [(Re)Building Technology](http://communitytechnology.github.io/) | 美国社区分享的对抗互联网中心制的教程
+| [GreatFire.org](https://zh.greatfire.org/) | 一如标语：“我们观察并挑战中国的互联网审查制度”
+
+---
+
+### # Telegram
+
+| 名称 | 简介
+|-|-
+| [Telegram 群组频道收录](https://congcong0806.github.io/2018/04/24/Telegram/) | 聪聪整理的最全Telegram收录
+| [Telegram 系列](tag/Telegram) | Ynewtime 博客上的 Telegram 文章
+
+---
+
+### # 使用
+
+我将上面的所有类别整理成了书签
+
+点击 [这里](https://share.weiyun.com/5Boc47z) 下载. 
+
+然后打开浏览器的书签 -> `导入书签和设置`
+
+选择 `以前导出的书签(HTML文件)`
+
+点击刚下载的 `0511.html` 文件导入即可.
+
+文章可能不会同步更新，最新的书签文件已下载的为准。
+
+![](https://ws1.sinaimg.cn/large/78905b2cgy1fqh1h6c6soj20xp0judm2.jpg)
+
+![](https://ws1.sinaimg.cn/large/78905b2cgy1fqh1hg4dyoj20ya0jo0xw.jpg)

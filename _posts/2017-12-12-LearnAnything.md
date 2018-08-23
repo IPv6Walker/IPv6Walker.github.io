@@ -1,16 +1,55 @@
 ---
 layout: post
-comments: true
-share: true
-title: 推荐 -- Learn Anything
-description: "We hope to create an open ecosystem for learning anything in the most efficient way so that no one gets left behind in the age of Artificial Intelligence and has the necessary skills and knowledge to do meaningful work and push our sum of human knowledge forward."
+author: 极光日报
+title: Learn Anything
+description: 转载 - "We hope to create an open ecosystem for learning anything in the most efficient way so that no one gets left behind in the age of Artificial Intelligence and has the necessary skills and knowledge to do meaningful work and push our sum of human knowledge forward."
 tags:
- - how-to
- - 推荐
+ - 转载
 ---
 
-Watch this introducion [video](https://www.youtube.com/watch?v=_zYjS2Uicso) when you have access to Youtube, if you have any problem visiting Youtube, check [this article](https://telegra.ph/Surfing-the-Real-Internet-03-04) first. Or visit this Chinese 'Quora-like' website for more info: [I want to learn](https://zhuanlan.zhihu.com/p/31906443?group_id=923653856366874624)
+简评：这个网站叫 [Learn Anything](https://learn-anything.xyz/)，最终形态是「人们想要搜索什么知识，都会获得最高效且适合自己的学习路径，知识图谱」。现在网站刚刚建立不久，还处于比较初期，是个开源项目，大家有兴趣可以参与一下，现在只有英文版本，大家也可以上传一些中文的索引。
 
-转载 / 知乎-极光日报：https://zhuanlan.zhihu.com/p/31906443
+<!--more-->
 
-![](https://wx1.sinaimg.cn/large/78905b2cly1fme0q3thyej20mp6avaou.jpg){: .center-image}
+本文翻译 Github 该项目的白皮书，以下我们都代表项目团队。
+
+---
+
+### 摘要
+
+我们正在试图建立一个开源的网站，可以让你通过线性的学习路径，交互式的学习地图掌握任何知识。它以独特的方式关联着世界上的所有知识。这个项目是开源的，不论是整个网站还是搜索知识所用的地图都是开源的。
+
+![](https://wx1.sinaimg.cn/large/78905b2cly1fqgzcaixuoj20k009lmx6.jpg){:.smaller}*搜索 health，弹出的知识图谱*
+
+![](https://wx1.sinaimg.cn/large/78905b2cly1fqgzcsoae0j20k00btgln.jpg){:.smaller}*fitness 下的 Strength Training，有各种细分，就不一一列举了*
+
+### 介绍
+
+从本质讲，这个项目试图解决的问题是，让用户可以在网站上找到任何想学的知识，并且通过最有效率的路径来获取和转化知识。网站通过大量的链接构成了交互式的地图搜索，用户既可以直接搜索自己想要学习的内容，也可以根据我们提供的链路来进行学习。
+
+所有的资源应该是最高质量的，所有的学习路径都应该是最高效的。网站不仅提供了学习任何特定内容的视觉路径，而且还提供了关联的山下文反馈。例如，人们如果想要了解向量，我们网站将显示矢量是线性代数的一部分，如果用户查看线性代数，它会发现更多线性代数相关的主题。不过我们只会提供链接，但力求内容是最高质量的。理想情况下，提供的链接应该是免费的，以防止用户因为学习成本而停滞。
+
+我们还发布了一个[视频](https://zhuanlan.zhihu.com/p/31906443)，展示我们网站的功能，如何使用以及如何为做出贡献，让大家都获益。
+
+### 贡献过程
+
+用户贡献和创造、添加、改变内容，一步一步完善网站的体验，这是 Learn Anything 的核心。和 Google 不同的是，用户可以完全自主选择展示什么样的链接，可能是 Reddit 上的某些评论，可能是某些互联网不知名人士但非常有价值的博客，因为这些博客可能没有 SEO 而无法在 Google 展现。
+
+Google 上很多有价值的内容，都无法展现在第一页，而人们大多数都只看第一页的搜索结果。用户无法接触到那些更深层也更有价值的内容。
+
+在 Learn Anything，我们关注搜索的内容深度，我们把知识串联起来，甚至小孩子也可以轻松的浏览我们的网站，学习他感兴趣的知识。
+
+### 个性化学习
+
+每个人喜欢的学习方法不同。有些人喜欢看视频，有些人喜欢阅读文章，有些人喜欢动手实践。我们希望能帮助每个人都可以找到最适合的资源。用户可以个性化的设置学习方式，过滤不想看到的内容。我们也提供了一种类似机器学习的 adaptive learning 模块，帮助用户挑选最适合自己的方法。
+
+当然，个性化方面还有很多功能需要考虑，我们的网站是开源的，希望大家也能够创造出各种想要添加的功能，能够方便自己，造福他人。大家也可以多多提需求，我们共同讨论也是没有问题的。
+
+### 结论
+
+总而言之，我们相信这会对未来的教育产生一些影响。相信大家或多或少发现，世界上的教育正在以难以置信的速度发生改变。从编程和机器学习，到历史，艺术和科学，我们获取知识的方式已经发生改变。Google 提供了很好地工具来搜索知识，我们希望能够做出补充，并提供学习路径。
+
+我们希望创造一个开放的生态，以最有效率的方式学任何东西。这些事情需要大家协作和共享，一起去完成，所以项目的一切都是开源的，这意味你的参与可以帮助很多人。
+
+转载 / [知乎-极光日报](https://zhuanlan.zhihu.com/p/31906443)
+{:.note}

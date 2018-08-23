@@ -1,19 +1,17 @@
 ---
 layout: post
-comments: true
-share: true
 date: 2017-11-11
-title: 推荐 -- PortableApps
+title: PortableApps
 description: 便携化办公实现
 tags:
  - 推荐
 ---
 
-**[主页](https://portableapps.com/)**
+> 便携化办公实现
 
-**[使用文档](https://portableapps.com/about/what_is_a_portable_app#definition)**
+**[主页](https://portableapps.com/)** / **[使用文档](https://portableapps.com/about/what_is_a_portable_app#definition)** / **[Wikipedia](https://en.wikipedia.org/wiki/PortableApps.com)**
 
-**[Wikipedia](https://en.wikipedia.org/wiki/PortableApps.com)**
+<!--more-->
 
 这是一个很帅的软件，它的最大特点在于实现了便携性办公
 

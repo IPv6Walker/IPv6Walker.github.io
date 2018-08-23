@@ -1,25 +1,22 @@
 ---
 layout: post
-comments: true
-share: true
-title: Telegram 扩展 -- 【Telegra.ph】
-description: 一款简洁至上的单页文章发布平台
+musicid: 32192436 #绅士
+title: Telegra.ph
+description: Telegram 扩展 - 一款简洁至上的单页文章发布平台
 tags:
- - 推荐
  - Telegram
 ---
 
-* TOC
-{:toc}
+搜索了一下虫部落里关于 Telegram 的讯息  
+竟然没找到虫友推荐  
+作为 Telegram 的骨灰 fan  
+跟虫友们聊聊 Telegram 推出的一款匿名的单页文章发布平台  
 
----
+![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4d5jjmrj212j0j9wei.jpg){:.smaller}
 
-作为 Telegram 的一个 fan  
-跟大家聊聊 Telegram 推出的一款匿名的单页文章发布平台  
+<!--more-->
 
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4d5jjmrj212j0j9wei.jpg){:.center-image}
-
-## 关于 telegra.ph  
+## 关于[ telegra.ph](https://telegra.ph)  
 Telegram 作为无广告非 zhengfu 永不上市的宇宙良心公司  
 在2016年发布了这款单页文章发布平台  
 刚上手的时候相当惊艳   
@@ -39,7 +36,7 @@ Telegram 作为无广告非 zhengfu 永不上市的宇宙良心公司
 7. 支持 Youtube 、Vimeo 外链和预览
 8. 登陆Telegram可作为轻博客发布平台
 
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4dekl0hj21210j8k5f.jpg){:.center-image}
+![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4dekl0hj21210j8k5f.jpg){:.smaller}
 
 ## 进阶应用  
 深入挖掘 telegra.ph 我们可以发现  
@@ -51,11 +48,13 @@ publish / 发布后右键图片
 选择“复制图片链接”  
 再分享就 OK 啦  
 
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4dg4jn6j212j0j9drl.jpg){:.center-image}
+![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4dg4jn6j212j0j9drl.jpg){:.smaller}
 
 ## More  
 文章 title 最好用英文的哦  
 因为如果你有用 telegram 的话  
-分享telegra.ph的文章可以在移动端生成【instant view】  
-【instant view】是 telegram 的一个即时预览功能  
+分享telegra.ph的文章可以在移动端生成instant view  
+这样在 telegram 上就可以快速预览了  
 零响应时间，非常方便好用啦  
+
+> 文章首发于[虫部落](https://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=4484&fromuid=4208)

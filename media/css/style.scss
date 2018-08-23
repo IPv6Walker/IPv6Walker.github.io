@@ -1,0 +1,261 @@
+/*------------------------------------
+ * sext-vi
+ *
+ * @author linghua.zhang@me.com
+ * @link http://lhzhang.com/
+ * @update 2015-07-24
+ *
+ * |/ | (~ (~
+ * |\.|._)._)
+ * --------------------------------- */
+
+@import url(/media/css/pygments.css);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(//code.cdn.mozilla.net/fonts/fira.css);
+@import "media-queries";
+
+$font-name: "Georgia";
+$font: $font-name, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+$monospace: Georgia, monospace;
+$label-font: $font-name, "Times New Roman",  "Microsoft YaHei", STXihei, "华文细黑", sans-serif;
+$time-font: "Ubuntu", monospace;
+$background-color: rgb(242, 242, 242);
+
+@mixin page {
+  margin: 0 auto;
+  @include min-screen(320px) { width: 300px; }
+  @include min-screen(375px) { width: 350px; }
+  @include min-screen(414px) { width: 400px; }
+  @include min-screen(800px) { width: 750px; }
+}
+
+* { margin: 0; padding: 0; }
+body { font-size: 16px; font-family: #{$font}; color: #000000; background-color: $background-color; -webkit-font-smoothing: antialiased; }
+ol, ul { list-style-position: inside; }
+li { padding: .4em 0; margin: 0 0 0 1em;}
+hr { border: none; margin: 1em 0; border-top: 1px dashed #999; border-bottom: 1px dashed #ffffff; }
+.center { text-align: center; }
+::selection { color: #fff; background-color: #333; }
+a { text-decoration: none; color: #000000; &:hover { color: #2bb6c9; }; }
+blockquote {
+  margin: 1em 1em;
+  border-left: 1px dashed #999;
+  padding-left: 1em;
+  font-family: $monospace, fantasy; 
+}
+blockquote p:first-letter {
+  float: left;
+  margin: .2em .3em .1em 0;
+  font-size: 220%;
+  font-weight: bold; }
+pre code {
+  padding: 0 1em;
+  margin: 0 0 1em 0;
+  border: 5px dashed #eee !important;
+  border-color: #e0e0e0 !important;
+  display: block;
+  overflow: auto; 
+}
+code { 
+  background-color: #f0f0f0; 
+  font-size: 16px;
+  padding: 2px 5px; 
+  border: 2px dashed #e0e0e0; 
+  font-family: #{$monospace}; 
+}
+h1 { font-size: 2em; margin: 2em 0 .5em 0; }
+h2 { font-size: 1.5em; margin: 2em 0 .5em 0; }
+h3 { font-size: 1.17em; margin: 2em 0 .5em 0; }
+h4 { font-size: 1em; margin: 2em 0 .5em 0; }
+time { font-family: #{$time-font} }
+
+header {
+  @include page;
+  text-align: justify;
+  margin: 3em auto;
+  &:after { content: ''; width: 100%; display: inline-block; }
+
+  #header {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    h1 {
+      font-family: #{$label-font};
+      a { text-decoration: none;
+        color: #a9a9a9; display: block; &:hover { color: #2bb6c9; };
+      }
+    }
+  }
+
+  nav {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    span { margin: .5em; }
+    a {
+      font-family: #{$label-font}; color: #ccc;
+    }
+  }
+}
+
+#content {
+  @include page;
+  line-height: 2em;
+  .main-listing { margin-bottom: 2em; }
+  a { color: #000000; &:hover { color: #2bb6c9; }; }
+}
+
+ul.listing {
+  margin-top: 1em;
+  li {
+    list-style-type:none;
+    padding: 0;
+    &.listing-item { a { border-bottom: 2px solid #2bb6c9; padding: .2em 0 .2em 0em; } time { color: #999; } &:hover { color: #2bb6c9; } }
+    &.listing-seperator { font-family: #{$label-font}; &:before { content: "<- "; color: #ccc; }  &:hover { border-bottom: 2px solid #2bb6c9; }  }
+  }
+}
+
+article {
+  margin: 2em 0;
+  p { padding: .7em 0; }
+  .title {
+    font-family: #{$label-font};
+    a { @extend a; color: #777; }
+  }
+
+  .meta {
+    display: block;
+    overflow: auto;
+    margin-top: -.5em;
+    font-size: .9em;
+    .tags a { @extend a; border-bottom: 2px solid #2bb6c9; color: #999999; padding: .25em; }
+    .author a { @extend a; border-bottom: 2px solid #2bb6c9; color: #999999; padding: .25em; }
+  }
+
+  .post { 
+    a { color: #000000; border-bottom: 2px solid #2bb6c9; &:hover { color: #2bb6c9; }; }
+    img { max-width: 100%; display: block; margin: .5em auto; } }
+
+  .comment { margin: 3em 0; }
+  .divider {
+    margin: 2em 0;
+
+    i { margin: 0 2em; color: #e9e9e9; }
+
+    a { @extend a;
+      font-family: #{$label-font};
+      margin: 0 2em;
+      i { color: #999999; margin: 0; &:hover { color: #2bb6c9 !important; } }
+    }
+  }
+  .divider {
+    position: relative;
+    font-size: 1em;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+  }
+  .divider:before, .divider:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 49%;
+    height: 2px;
+    content: '\a0';
+    background-color: #2bb6c9;
+  }
+  .divider:before { margin-left: -50%; text-align: right; }
+  .divider:after { margin-left: 1%; }
+}
+
+footer {
+  @include page;
+  display: block;
+  color: #909090;
+  font-family: #{$label-font};
+  font-size: .9em;
+  text-align: center;
+  margin: 1em auto;
+  a { color: #000000; &:hover {  border-bottom: 2px solid #2bb6c9; color: #2bb6c9; }; }
+
+}
+
+#tag_cloud { margin-bottom: 1em; }
+
+// gist
+.gist { font-size: 16px; line-height:1.6; }
+
+// embed
+
+.embed-responsive{
+  position:relative;
+  display:block;
+  height:0;
+  padding:0;
+  overflow:hidden
+}
+
+.embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border:0
+}
+
+.embed-responsive.embed-responsive-16by9{
+  padding-bottom:56.25%
+}
+
+.embed-responsive.embed-responsive-4by3{
+  padding-bottom:75%
+}
+
+.small {
+  zoom: 50%
+}
+
+
+img + em {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+// note
+
+.note {
+  position:relative;
+  border: 0;
+}
+.note:before {
+  content: "\f06a";
+  font-size: 2em;
+  font-family: FontAwesome;
+  left: 0px;
+  margin: 0 .5em 0 0;
+  position: relative;
+  color: rgb(43, 182, 201);
+}
+
+// table
+
+table{
+  border-left:1px solid #000000;border-top:1px solid #000000;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto 10px;
+  word-wrap:break-word; word-break:break-all;
+}
+table th{
+  text-transform: uppercase;
+  text-align: center;
+  padding: .5em .75em;
+}
+table th,td{
+  padding: .5em;
+  border: 1px solid #5e5e5e;
+}

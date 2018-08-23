@@ -1,60 +1,27 @@
-# Jekyll configuration
-
-name: 安昙小太郎
-description: Software Developer
-
-url: https://test007.gq
-#url: http://localhost:4000
-
-# For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-baseurl: '/'
-
-social:
-  #github: 
-  twitter: kotaro01_007
-  #stackoverflow: 
-  #linkedin: 
-  #codepen: 
-  #instagram: 
-  #lastfm: 
-  rss: feed.xml
-
-
-share:
-  facebook: true
-  twitter: true
-  gplus: true
-  linkedin: true
-  pinterest: true
-  email: true
-
-collections:
-  quicknotes:
-    output: false
-
-# Google Analytics key, leave blank to ignore
-google_analytics_key: UA-106553302-2
-# Yandex metrika (https://metrica.yandex.com/) leave blank to ignore or put true to use
-yandex_metrika: true
-# Set this to your disqus shortname to enable comments. Note that the 'comments'
-# setting below must also be true. Individual posts can override 'comments' to
-# disable on a post-by-post basis
-disqus: test007-gq
-comments: true
-
+name: "安昙のDiary"
 permalink: /:title
-gems: [jekyll-paginate]
-paginate: 30
 
-#highlighter: rouge
-#markdown: redcarpet
-#redcarpet:
-#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+author: "安昙小太郎"
+atom-baseurl: "https://test007.gq"
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Telegram
+    class: fa fa-telegram
+    href: //t.me/Kotaro007
+  - title: Subscribe
+    class: fa fa-rss
+    href: /atom.xml
+
 markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
-
-plugins:
-  - jekyll-feed
-
-exclude: ['README.md', 'LICENSE', vendor]
+  hard_wrap: true
