@@ -28,9 +28,11 @@ Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](/ss-windows-
 
 ### Android
 
-[下載](//github.com/shadowsocks/shadowsocks-android/releases)，然後安裝，復制 [這裏](/Free-node-share) 的一個SS節點到剪貼板，打開 Shadowsocks 客戶端，選擇從剪貼板導入，然後選擇一個節點，設置一下路由為繞過大陸，點擊飛機就可以上網了。
+1. [下載](//github.com/shadowsocks/shadowsocks-android/releases)，然後安裝
+2. 打開 Shadowsocks 客戶端，選擇右上角 ➕ 掃描二維碼，導入 [這裏](/Free-node-share) 的一個節點；
+3. 掃描後在主頁配置文件頁面中配置節點，在最下方禁用插件，返回配置文件頁面，最後點擊下方 shadowsocks 圖標啓用。
 
-執行完畢以後就可以到路由器的設置面板裏隨意選擇 Shadowsocks 服務器進行連接了。
+![](//telegra.ph/file/553dc35aae487bdb7a7ad.jpg){:.small}*VPN 圖標表示啓用成功*
 
 ### Linux
 

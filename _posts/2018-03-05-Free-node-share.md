@@ -8,6 +8,8 @@ tags:
 
 ![](//telegra.ph/file/926d3c4d491a1feb577f4.jpg)
 
+## 節點概念介紹
+
 什麼是節點？
 
 首先，你需要對 shadowsocks 這種網絡代理工具有[基本的了解](/ss-intro)，簡單來講，節點就是由 ss-server 端給出的驗證信息，形式上表現為一串鏈接，也可以手動進行配置。
@@ -36,16 +38,15 @@ Encryption: aes-128-cfb
 
 ![](//telegra.ph/file/1b4f99bac63edc758051f.jpg)
 
-**IPv4 節點，用於通過 IPv4 協議翻牆（適用於不支持 IPv6 協議的童鞋）**
+## 節點獲取方式
+
+**IPv4 免費節點，用於通過 IPv4 協議翻牆（適用於不支持 IPv6 協議的童鞋）**
 
 Google Hosts 項目維護的兩個公共 ss 節點及 Telegram socks5 代理
 
 ```
 https://github.com/googlehosts/hosts/wiki/实验室
 ```
-
-註意：這篇文章分享的是免費的公共 IPv4 翻墻節點，如果你可以通过 IPv6 上网，想尋找 IPv6 節點，請戳這篇文章：[IPv6 Node Share](/IPV6-node)
-{:.note}
 
 **IPv6 節點，用於破解夜間斷網和翻牆（適用於教育網用戶和 IPv6 用戶）**
 
