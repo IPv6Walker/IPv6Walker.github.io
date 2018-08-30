@@ -6,7 +6,7 @@
 
 ## 博客索引
 
-![](//telegra.ph/file/aed1cb9fb216b130ef432.jpg)
+![](https://telegra.ph/file/aed1cb9fb216b130ef432.jpg)
 
 根據你的需求來進行瀏覽。
 
