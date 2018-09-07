@@ -16,7 +16,7 @@ Wechat 已經變成了[事實上的局域網](https://blog.yitianshijie.net/2015
 
 而國內的事實就是，依託於社交的微信整合了支付和城市服務等多種便民手段，搭建了小程序平臺以提供給用戶基於微信的程序市場，同時具有龐大的資訊創作來源——公衆號平臺，整個微信形成了一個超級 APP 的生態，似乎離開微信已成爲一種不太可能的當下。但微信的壟斷性也日益增強，[公衆號內的鏈接被強制限制](https://blog.yitianshijie.net/2016/02/21/byebye-wechat/)，超鏈接的定義在公衆號的環境下已經變成了“公衆號內索引”，互聯網的開放性被割裂（不知道若是WWW的創始人見到此景又會生發怎樣的感慨，要知道，在美國，reddit上最熱門的一條[帖子](https://www.reddit.com/r/announcements/comments/7jsyqt/the_fccs_vote_was_predictably_frustrating_but/)甚至可以改變國會在[網絡中立性上的決策](http://forwardthinking.pcmag.com/none/332400-the-fcc-on-net-neutrality-be-careful-what-you-wish-for)。
 
-![](https://i.jpg.dog/img/b935e19b81673f9556bb7c86270c7e41.png)*Say no to Wechat*
+![](https://telegra.ph/file/21d22c88e2d3a1083d2bf.png)*Say no to Wechat*
 
 國內鮮有像 reddit 上這樣反對政府決策的公共帖子（事實上互聯網中立性的問題在國內應該表述爲 [GFW](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E) 的問題)。在國內，所有的報道要經過嚴格的審查。我們不期待政府在這一方面有所進步，這已經是涉及變革的問題了。但我們有機會遠離審查的核心——騰訊作為中國最大的上市科技公司，在與政府和公安的合作上已經是公認的事實了（盡管[張小龍言之鑿鑿微信不儲存用戶的數據](http://tech.163.com/18/0115/12/D86M84PC00097U7R.html)，但陳列在公安部門裏的網絡與情監控設備讓他的這一言論變得無比可笑)。微信不具備隱私，當然，你也可以認爲，在中國的任何社交媒體幾乎都不具有隱私。此外，微信之外還有很多替代，我們不苛求完全棄用微信，但至少，親愛的讀者，請務必遠離微信上非必要的聊天，畢竟在無數的監控裏面被實時直播實在是令人遺憾的一件事情。
 

@@ -1,5 +1,5 @@
 ---
-title: about
+title: 关于
 layout: page
 ---
 
@@ -11,7 +11,9 @@ layout: page
 
 博客基于 [Jekyll](//jekyllrb.com/) 和 [Github Pages](//pages.github.com/) 搭建。遇到链接失效或 404 的情况，绝大部分是网络被和谐所造成的，比如 Youtube 视频嵌入，推文嵌入，Telegram 消息嵌入等等。 这需要你开启[科学上网](/科学上网)。
 
-镜像站点：[Ynewtime](//www.ynewtime.com)
+本站为纯技术贴索引站，站点的文章系博主原创，转载请注明链接。
+
+<!--联动站点：[Ynewtime](//www.ynewtime.com)-->
 
 ## 博客索引
 

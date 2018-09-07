@@ -43,7 +43,7 @@ sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 
-# 从[这里](https://www.google.com/chrome/)下载 Chrome 包，如果无法科学上网请戳[这里](https://share.weiyun.com/5AS73Px)下载
+# 从[这里](https://www.google.com/chrome/)下载 Chrome 包，如果无法科学上网请戳[这里](https://get.js.org/chrome)下载
 # 如果可以正常访问 google 的话可以直接用命令下载 chrome 包
 wget https://dl.google.com/Linux/direct/google-chrome-stable_current_amd64.deb
 # 安装相关依赖

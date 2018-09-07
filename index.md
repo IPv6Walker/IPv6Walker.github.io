@@ -24,6 +24,9 @@ layout: default
       {% endfor %}
     </span>
     {% endif %}
+    <span id="busuanzi_container_page_pv">
+      阅读 |  <span id="busuanzi_value_page_pv" style="font-weight: bold"></span>
+    </span>
     </section>
     <section class="post">
     {{ post.content }}
@@ -32,7 +35,7 @@ layout: default
   {% endfor %}
   <div class="divider"></div>
   <ul class="listing main-listing">
-    <li class="listing-seperator">Happened earlier this year</li>
+    <li class="listing-seperator">Earlier this year</li>
   {% capture year %}{{ site.time | date:"%Y"}}{% endcapture %}
   {% for post in site.posts offset:1 %}
     {% capture y %}{{ post.date | date:"%Y"}}{% endcapture %}
@@ -44,6 +47,6 @@ layout: default
       <a href="{{ post.url }}" title="{{ post.title }}" target="_self">{{ post.title }}</a>
     </li>
   {% endfor %}
-    <li class="listing-seperator"><a href="/archive.html"  target="_self">Long long ago</a></li>
+    <li class="listing-seperator"><a href="/archive.html"  target="_self" style="border-bottom: 2px solid #2bb6c9;">Long long ago</a></li>
   </ul>
 </div>

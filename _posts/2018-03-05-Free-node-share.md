@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 免費的節點分享 / FreeNode Share
+title: 免費的節點分享
 description: 分享快樂。
 tags:
  - 機智上網

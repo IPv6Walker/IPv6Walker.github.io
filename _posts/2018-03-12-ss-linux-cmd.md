@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shadowsocks 操作指導 -- Linux 篇
+title: Shadowsocks - Linux 篇
 date: 2018-03-12
 description: 
 tags:

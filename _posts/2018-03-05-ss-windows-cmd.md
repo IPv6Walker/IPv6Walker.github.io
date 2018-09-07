@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shadowsocks 操作指導 -- Windows 篇
+title: Shadowsocks - Windows 篇
 date: 2018-03-05 02:00:00
 description: shadowsocks-Windows 單步驟解析
 tags: 

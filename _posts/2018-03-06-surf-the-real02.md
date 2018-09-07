@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 機智上網系列 -- 全平臺指導
+title: 機智上網 - 全平臺指導
 date: 2018-03-06 01:00:00
 description: 機智上網全平臺簡略教程
 tags: 
