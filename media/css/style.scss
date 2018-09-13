@@ -1,14 +1,46 @@
 @import url("/media/css/pygments.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300");
-@import url("https://code.cdn.mozilla.net/fonts/fira.css");
 @import "media-queries";
 
-$font-name: "Consolas";
-$font: $font-name, "Georgia", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
-$monospace:  $font, monospace;
-$label-font: $font, sans-serif;
-$time-font: "Ubuntu", $font, monospace;
-$background-color: #f2f2f2; //rgb(242, 242, 242)
+//********************************************************
+//                    Variables
+//********************************************************
+
+//主字体集，注意：前两个字体仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
+$font-name: "ten-mincho", "source-han-serif-sc", "Consolas", "Microsoft YaHei", STXihei;
+
+//字体颜色
+$font-color: #000000;
+
+//主字体设置
+$font: $font-name, serif;
+
+//代码字体
+@font-face{
+  font-family: 'YaHei Consolas Hybrid';
+  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+}
+$monospace: 'YaHei Consolas Hybrid', $font-name, monospace;
+
+//标签字体
+$label-font: $font-name, sans-serif;
+
+//时间字体
+$time-font: "Ubuntu", $font-name, monospace;
+
+//主背景颜色
+$background-color: #f2f2f2; //淡青，现代风格
+//$background-color: rgb(253, 246, 227); //Solarized，暖色
+//$background-color: #ffffff; //纯白，强调
+
+//高亮主基色
+$highlight-color: #2bb6c9;
+
+//强调样式主颜色
+$poem-color: #D2E354;
+
+//使用这个背景图片，或者从 /media/files/bg 抑或 transparenttextures.com 中挑一个
+$background-pattern: 'skulls.png';
 
 @mixin page {
   margin: 0 auto;
@@ -18,55 +50,66 @@ $background-color: #f2f2f2; //rgb(242, 242, 242)
   @include min-screen(800px) { width: 780px; }
 }
 
+//********************************************************
+//                  Common styles
+//********************************************************
+
 * { margin: 0; padding: 0; }
+
 body { 
   font-size: 18px; 
-  font-family: #{$font}; 
-  color: #000000; 
-  background-color: $background-color; 
-  background-image: url("/media/bg/skulls.png");
+  font-family: #{$font};
+  color: #{$font-color}; 
+  background: $background-color url("/media/bg/#{$background-pattern}");
   -webkit-font-smoothing: antialiased; 
 }
+
+//列表，分隔符，链接，选中
 ol, ul { list-style-position: inside; }
 li { padding: .4em 0; margin: 0 0 0 1em;}
 hr { border: none; margin: 1em 0; border-top: 1px dashed #999; border-bottom: 1px dashed #ffffff; }
-.center { text-align: center; }
+a { text-decoration: none; color: #{$font-color}; &:hover { color: #{$highlight-color}; }; }
 ::selection { color: #fff; background-color: #333; }
-a { text-decoration: none; color: #000000; &:hover { color: #2bb6c9; }; }
+
+//引用样式
 blockquote {
   margin: 1em 1em;
   border-left: 1px dashed #999;
   padding-left: 1em;
-  font-family: "Times New Roman", $font, fantasy; 
+  font-family: $font-name, fantasy; 
 }
 blockquote p:first-letter {
   float: left;
   margin: .2em .3em .1em 0;
   font-size: 220%;
   font-weight: bold; }
+
+//代码块样式
+//长代码区
 pre code {
   padding: 0 1em;
   margin: 1em 0;
-  font-size: 1em;
-  //border: 5px dashed #eee !important;
-  //font-weight: bold;
-  border-left: 4px solid #2bb6c9;
-  border-color: #2bb6c9 !important;
   display: block;
   overflow: auto; 
+  font-size: .8em;
+  background-color: #{$background-color};
+  border-left: 4px solid #{$highlight-color};
+  border-color: #{$highlight-color} !important;
 }
-code { 
-  background-color: #f0f0f0; 
-  //font-weight: bold;
-  font-size: 1em;
+//小代码块
+code {
   padding: .2em .2em; 
-  border: 1.5px dashed #b8b8b8; 
+  border: 1.5px dashed #909090; 
   font-family: $monospace; 
 }
+
+//标题样式，最佳实践
 h1 { font-size: 2em; margin: 2em 0 .5em 0; }
 h2 { font-size: 1.5em; margin: 2em 0 .5em 0; }
 h3 { font-size: 1.17em; margin: 2em 0 .5em 0; }
 h4 { font-size: 1em; margin: 2em 0 .5em 0; }
+
+//博客上的时间样式
 time { font-family: #{$time-font} }
 
 header {
@@ -82,7 +125,7 @@ header {
     h1 {
       font-family: #{$label-font};
       a { text-decoration: none;
-        color: #a9a9a9; display: block; &:hover { color: #2bb6c9; };
+        color: #a9a9a9; display: block; &:hover { color: #{$highlight-color}; };
       }
     }
   }
@@ -102,7 +145,7 @@ header {
   @include page;
   line-height: 2em;
   .main-listing { margin-bottom: 2em; }
-  a { color: #000000; &:hover { color: #2bb6c9; }; }
+  a { color: #{$font-color}; &:hover { color: #{$highlight-color}; }; }
 }
 
 ul.listing {
@@ -110,7 +153,7 @@ ul.listing {
   li {
     list-style-type:none;
     padding: 0;
-    &.listing-item { a { border-bottom: 2px solid #2bb6c9; padding: .2em 0 .2em 0em; } time { color: #999; } &:hover { color: #2bb6c9; } }
+    &.listing-item { a {border-bottom: 2px solid #{$highlight-color}; padding: .2em 0 .2em 0em; } time { color: #999; } &:hover { color: #{$highlight-color}; } }
     &.listing-seperator {margin:1em 0; font-size:1em;  font-family: #{$label-font}; &:before { content: "#=== "; color: #ccc; } &:after { content: " ===#"; color: #ccc; } }
   }
 }
@@ -128,24 +171,24 @@ article {
     overflow: auto;
     margin-top: -.5em;
     font-size: .9em;
-    .tags a { @extend a; border-bottom: 2px solid #2bb6c9; color: #999999; padding: .25em; }
-    .author a { @extend a; border-bottom: 2px solid #2bb6c9; color: #999999; padding: .25em; }
+    .tags a { @extend a; border-bottom: 2px solid #{$highlight-color}; color: #999999; padding: .25em; }
+    .author a { @extend a; border-bottom: 2px solid #{$highlight-color}; color: #999999; padding: .25em; }
   }
 
   .post { 
-    a { color: #000000; border-bottom: 2px solid #2bb6c9; &:hover { color: #2bb6c9; }; }
+    a { color: #{$font-color}; border-bottom: 2px solid #{$highlight-color}; &:hover { color: #{$highlight-color}; }; }
     img { max-width: 100%; display: block; margin: .5em auto; } }
 
   .comment { margin: 3em 0; }
   .divider {
-    margin: 2em 0;
+    margin: 2em 0 0 0;
 
-    i { margin: 0 2em; color: #e9e9e9; }
+    i { margin: 0 1em; color: #999999; }
 
     a { @extend a;
       font-family: #{$label-font};
-      margin: 0 2em;
-      i { color: #999999; margin: 0; &:hover { color: #2bb6c9 !important; } }
+      margin: 0 1em;
+      i { color: #999999; margin: 0; &:hover { color: #{$highlight-color} !important; } }
     }
   }
   .divider {
@@ -157,12 +200,12 @@ article {
   }
   .divider:before, .divider:after {
     position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 49%;
-    height: 2px;
+    top: 50%;
+    //overflow: hidden;
+    width: 50%;
+    height: 1px;
     content: '\a0';
-    background-color: #2bb6c9;
+    background-color: #{$highlight-color};
   }
   .divider:before { margin-left: -50%; text-align: right; }
   .divider:after { margin-left: 1%; }
@@ -175,9 +218,8 @@ footer {
   font-family: #{$label-font};
   font-size: .9em;
   text-align: center;
-  margin: 1em auto;
-  a { color: #000000; &:hover {  border-bottom: 2px solid #2bb6c9; color: #2bb6c9; }; }
-
+  //margin: 1em auto;
+  a { color: #{$font-color}; &:hover {  border-bottom: 2px solid #{$highlight-color}; color: #{$highlight-color}; }; }
 }
 
 #tag_cloud { margin-bottom: 1em; }
@@ -186,7 +228,6 @@ footer {
 .gist { font-size: 18px; line-height:1.6; }
 
 // embed
-
 .embed-responsive{
   position:relative;
   display:block;
@@ -222,7 +263,6 @@ footer {
 }
 
 // custom
-
 .small {
   zoom: 50%
 }
@@ -235,7 +275,6 @@ img + em {
 }
 
 // note
-
 .note {
   position:relative;
   border: 0;
@@ -251,12 +290,11 @@ img + em {
 }
 
 // table
-
 table{
   // background-color: #fafafa;
   // background: url("/media/bg/type.png") repeat;
-  border-left: 2px solid #2bb6c9;
-  border-top: 2px solid #2bb6c9;
+  border-left: 2px solid #{$highlight-color};
+  border-top: 2px solid #{$highlight-color};
   border-collapse: collapse;
   width: 100%;
   margin: 0 auto 10px;
@@ -269,11 +307,10 @@ table th{
 }
 table th,td{
   padding: .5em;
-  border: 2px solid #2bb6c9;
+  border: 2px solid #{$highlight-color};
 }
 
 // key
-
 .key {
   font-size: 1.0em;
   box-shadow: 1px 0 1px 0 #555, 0 1px 0 2px #888, 0 2px 0 2px #777;
@@ -285,27 +322,23 @@ table th,td{
 }
 
 // 长段文字的说明栏
-
 .poem {
+  //你可以反注释掉这一行来启用 .poem 的背景
   //background: url("/media/bg/type.png") repeat;
-  background-color: #f2f2f2;
-  //border-color: #D2E354 !important;
-  border: 2px dashed #D2E354;
-  border-left: 4px solid #D2E354;
-  // border-radius: 10px;
-  padding: 1em 1em;
-  color: #000000;
-  margin: 1em 0;
+  margin: 0 auto;
+  padding: .5em 1em;
+  border-radius: 10px;
+  border: 2px solid #{$poem-color};
 }
 
 //响应式图片样式开始
-
+//双栏图片，如果想保持栏目等宽高，请先处理图片
 div.img {
     border: 1px solid #999;
 }
 
 div.img:hover {
-    border: 1px solid #2bb6c9;
+    border: 1px solid #{$highlight-color};
 }
 
 div.img img {
@@ -348,4 +381,6 @@ div.desc {
     clear: both;
 }
 
-//响应式图片样式结束
+//给某段文字赋予居中显示样式
+//使用：下一段非隔行添加 {:.center}
+.center { text-align: center; }

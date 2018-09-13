@@ -1,27 +1,42 @@
-name: "安昙のDiary"
-permalink: /:title
+# MIT LICENSE | https://opensource.org/licenses/MIT
+# This theme 'Jekyll-theme' was created by [Stephen Tseng](https://www.ynewtime.com).
+# This theme is pure jekyll theme so you don't need to use bundle
+# Instead, just run 'jekyll serve', then visit 127.0.0.1:4000 to check your site offline.
 
-author: "安昙小太郎"
-atom-baseurl: "https://test007.gq"
+name: 'L'' # put the site's name here
+permalink: /:title # the way you wanna your links look like ==> https://jekyllrb.com/docs/permalinks/
 
-navigations:
+description: "| IPv6 | 科学上网 | t.me/antakotaro |" # put your site's description here
+author: "安昙小太郎" # put your name here
+atom-baseurl: "https://test007.gq" # the url for rss feed, you can change it to your site's url
+baseurl: "" # if you aren't publish your blog under permalink like: /blog/, you don't need change this, or change it to /your-repo's-name
+social: "https://twitter.com/Ynewtime" # put your social links here
+GA: "UA-106553302-2" # If you have a Google analytics account available, put your site's id here
+
+# the navigation bar, you can create your own one
+navigations: 
   - title: Archive
     class: fa fa-list-ul
-    href: /archive.html
+    href: /archive
   - title: Tags
     class: fa fa-tags
-    href: /tags.html
+    href: /tags
   - title: About
     class: fa fa-user
-    href: /about.html
-  - title: Telegram
+    href: /about
+  - title: Telegram # if you don't have a telegram account, you can just delete this section
     class: fa fa-telegram
-    href: //t.me/Kotaro007
-  - title: Subscribe
+    href: //t.me/Ynewtime_Biki
+  - title: Twitter # if you don't have a twitter account, you can just delete this section
+    class: fa fa-twitter
+    href: //twitter.com/Ynewtime
+  - title: Subscribe # if you don't want to enable RSS, you can just delete this section
     class: fa fa-rss
     href: /atom.xml
 
+# Build settings, you don't need to change this
 markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
+exclude: ["README.md"]
