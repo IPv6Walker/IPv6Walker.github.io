@@ -7,6 +7,8 @@
 //********************************************************
 
 //主字体集，注意：前两个字体仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
+//字体效果参见 www.ynewtime.com
+//如需启用，请自行于_config.yml中定制 kitID
 $font-name: "ten-mincho", "source-han-serif-sc", "Consolas", "Microsoft YaHei", STXihei;
 
 //字体颜色
@@ -18,7 +20,7 @@ $font: $font-name, serif;
 //代码字体
 @font-face{
   font-family: 'YaHei Consolas Hybrid';
-  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+  src: url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
 }
 $monospace: 'YaHei Consolas Hybrid', $font-name, monospace;
 

@@ -12,6 +12,7 @@ atom-baseurl: "https://test007.gq" # the url for rss feed, you can change it to 
 baseurl: "" # if you aren't publish your blog under permalink like: /blog/, you don't need change this, or change it to /your-repo's-name
 social: "https://twitter.com/Ynewtime" # put your social links here
 GA: "UA-106553302-2" # If you have a Google analytics account available, put your site's id here
+kitID: "plu5xmm" # If you have an adobe fonts kit, put it here.
 
 # the navigation bar, you can create your own one
 navigations: 
