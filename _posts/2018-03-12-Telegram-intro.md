@@ -8,7 +8,7 @@ tags:
  - Telegram
 ---
 
-![](//ws2.sinaimg.cn/large/78905b2cgy1fpn40jbi41j20xc0go74x.jpg)
+![](/media/files/WEBP/tg1.webp)
 
 <!--more-->
 
@@ -32,7 +32,7 @@ Telegram 的基本功能譬如群組、Channel、UI 等方面就不介紹了，�
 
 Telegram 團隊使用自己設計的加密協議 MTProto，並以 30 萬美金的高價 [獎賞](//telegram.org/blog/cryptocontest) 漏洞的提交者。
 
-![](//ws2.sinaimg.cn/large/78905b2cgy1fpn41w4i31j21kw0xpah0.jpg)
+![](/media/files/WEBP/tg2.webp)
 
 你可以對其他用戶發起一對一的加密聊天，這是端到端加密的，可以設置每條消息的有效時間（有點像 Snapchat）。同時可以設置一段時間內沒有活動記錄自動刪除賬戶，也可以主動 [deactivate](//my.telegram.org/auth?to=deactivate)。
 
@@ -40,7 +40,7 @@ Telegram 團隊使用自己設計的加密協議 MTProto，並以 30 萬美金�
 
 有意思的是，由於 Telegram 安全性備受矚目，吸引了大量 [恐怖分子](http://securityaffairs.co/wordpress/54787/terrorism/telegram-isis.html) 的聚集，Telegram 團隊也不得不對這些頻道和群組加以監控和查封。
 
-![](//ws2.sinaimg.cn/large/78905b2cgy1fpn4283uq6j20go0aj0vn.jpg)
+![](/media/files/WEBP/tg3.webp)
 
 ## 特性與細節
 
@@ -67,7 +67,7 @@ Telegram 永遠不會主動刪除你的聊天記錄，所有內容都會在全�
 
 Telegram 告訴你什麼才是真正的“即時通訊”。
 
-![](//ws2.sinaimg.cn/large/78905b2cgy1fpn42zvrs3j21kw1dbnbi.jpg)
+![](/media/files/WEBP/tg4.webp)
 
 你會看到，聊天框未發送的消息，在其他平臺進入時完全同步過來了，甚至光標的位置都一模一樣。也就是說你可以在如廁時繼續編輯剛才電腦上的消息。
 
@@ -81,13 +81,13 @@ Bot 的機制體現了 Telegram 開放的特性，大大豐富了 Telegram 的�
 
 有的開發者認為， IRC 的定制性更強，但我認為 Telegram Bot 機制已經足夠友好了，尤其是相比國內 IM 工具而言。絕大多數需求都可以通過定制 Bot 來滿足。
 
-![](//ws2.sinaimg.cn/large/78905b2cgy1fpn44akh2bj21kw0wajz5.jpg)
+![](/media/files/WEBP/tg5.webp)
 
 ### ehForwarderBot
 
 [ehForwarderBot](//github.com/blueset/ehForwarderBot) 能夠將微信和 Telegram 連接在一起，你可以在 Telegram 上收發微信消息。同時，你還可以自己貢獻代碼，讓它支持更多平臺。
 
-![](//ws2.sinaimg.cn/large/78905b2cgy1fpn44p8gnhj20go0etqaj.jpg)
+![](/media/files/WEBP/tg6.webp)
 
 網上有人說：
 

@@ -7,7 +7,7 @@ tags:
  - 機智上網
 ---
 
-![](//telegra.ph/file/5f50b256394538c51b452.jpg)
+![](/media/files/WEBP/surf.webp)
 
 ## Shadowsocks / SS 
 
@@ -31,8 +31,9 @@ Shadowsocks Windows 客戶端的單步指導請參考[這篇文章](/ss-windows-
 1. [下載](//github.com/shadowsocks/shadowsocks-android/releases)，然後安裝
 2. 打開 Shadowsocks 客戶端，選擇右上角 ➕ 掃描二維碼，導入 [這裏](/Free-node-share) 的一個節點；
 3. 掃描後在主頁配置文件頁面中配置節點，在最下方禁用插件，返回配置文件頁面，最後點擊下方 shadowsocks 圖標啓用。
+{:.poem}
 
-![](//telegra.ph/file/553dc35aae487bdb7a7ad.jpg){:.small}*VPN 圖標表示啓用成功*
+![](/media/files/WEBP/vpn.webp){:.small}*VPN 圖標表示啓用成功*
 
 ### Linux
 
@@ -43,9 +44,7 @@ Shadowsocks linux 客戶端的單步指導請參考[這篇文章](/ss-linux-cmd)
 ## 各平臺軟件下載鏈接匯總
 
 [Shadowsocks-Windows](//github.com/shadowsocks/shadowsocks-windows/releases)
-
 [Shadowsocks-Android](//github.com/shadowsocks/shadowsocks-android/releases)
-
 [Shadowsocks-Mac](//github.com/shadowsocks/ShadowsocksX-NG/releases)
-
 [Shadowsocks-Linux](//https://github.com/shadowsocks/shadowsocks-qt5/releases)
+{:.poem}

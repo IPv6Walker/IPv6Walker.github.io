@@ -7,11 +7,11 @@ tags:
  - 推荐
 ---
 
-![](https://ww1.sinaimg.cn/large/78905b2cgy1fk686o5b4rj211h0lbwfc.jpg)*[windows 绝赞应用](https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/)*
+![](/media/files/WEBP/windows.webp)*[windows 绝赞应用](https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/)*
 
-![](https://ww1.sinaimg.cn/large/78905b2cgy1fk68jkyjchj211j0lb758.jpg)*[Awesome-macOS](https://github.com/iCHAIT/awesome-macOS)*
+![](/media/files/WEBP/macos.webp)*[Awesome-macOS](https://github.com/iCHAIT/awesome-macOS)*
 
-![](https://ww1.sinaimg.cn/large/78905b2cgy1fk686o4gw1j211h0lbjs7.jpg)*[Amazing Android Apps](https://amazing-apps.gitbooks.io/amazing-android-apps/content/zh-CN/)*
+![](/media/files/WEBP/android.webp)*[Amazing Android Apps](https://amazing-apps.gitbooks.io/amazing-android-apps/content/zh-CN/)*
 
 灵感来自于Github上的Awesome-macos项目，windows和android平台的绝佳应用推荐。
 
@@ -35,7 +35,7 @@ windows 项目已经成熟，提供简繁中文 / English三种语言支持，�
 
 个人体验方面，举 [Mcool 音乐播放器](https://mcool.appinn.me/)为例，这个播放器支持 Windows / Android 版本，在写这篇文章的同时，我也正在使用。特点是，扫描音乐文件，自动识别并下载封面和歌词文件，UI逻辑很特别
 
-![](https://wx2.sinaimg.cn/large/78905b2cgy1fk68cmyux1j20fk0bpdij.jpg)
+![](/media/files/WEBP/mcool.webp)
 
 ## 结语
 

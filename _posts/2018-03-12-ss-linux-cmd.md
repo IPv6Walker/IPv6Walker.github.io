@@ -7,7 +7,7 @@ tags:
  - 機智上網
 ---
 
-![](//telegra.ph/file/901fff5e3b7611cfeb4d7.png)
+![](/media/files/WEBP/sl1.webp)
 
 首先，戳 [這裏](//github.com/shadowsocks/shadowsocks-qt5/releases)下載 Shadowsocks-qt5
 
@@ -21,17 +21,17 @@ tags:
 
 可以看到，這裏的軟件權限值是  `-664`  (●'◡'●)
 
-![](//telegra.ph/file/74c61dcd8c50a7be3f247.png)
+![](/media/files/WEBP/sl2.webp)
 
-![](//telegra.ph/file/35b56c759d32055d655c7.png)
+![](/media/files/WEBP/sl3.webp)
 
 將所有者、群組、任何人的執行權限勾選上，下方顯示權限值為 `-777`
 
-![](//telegra.ph/file/8f74aa3837e397ff411b7.png)
+![](/media/files/WEBP/sl4.webp)
 
 點擊關閉，然後右鍵點擊 Shadowsocks-Qt5，點擊 `運行` / 或者直接雙擊軟件運行 （￣︶￣）↗
 
-![](//telegra.ph/file/963355656b33becd9b3af.png)
+![](/media/files/WEBP/sl5.webp)
 
 剛進入是沒有配置信息的  (+_+)?
 
@@ -52,19 +52,19 @@ Password: Your_password
 Encryption: aes-128-cfb
 ```
 
-![](//telegra.ph/file/2c0eb252cf6923009e033.png)
+![](/media/files/WEBP/sl6.webp)
 
-![](//telegra.ph/file/b5d72ff66cdfd48a274cd.png)
+![](/media/files/WEBP/sl7.webp)
 
 如果你獲取到的是一個二維碼，你也可以通過掃描屏幕中的二維碼來導入節點。
 
-![](//telegra.ph/file/722f17ee6140bd538feeb.png)
+![](/media/files/WEBP/sl8.webp)
 
-![](//telegra.ph/file/8691fcfa0a47b716faaa1.png)
+![](/media/files/WEBP/sl9.webp)
 
 測試一下延遲 \\(￣︶￣*\\))
 
-![](//telegra.ph/file/f4dfd75086d091263da0d.png)
+![](/media/files/WEBP/sl10.webp)
 
 OK. 這樣我們就完成了 ElementaryOS 系統的翻墻大任了。 ✌
 
@@ -72,13 +72,13 @@ OK. 這樣我們就完成了 ElementaryOS 系統的翻墻大任了。 ✌
 
 如果你有關註 linux 發行版的話，你會發現，elementaryOS 其實是基於 Ubuntu 開發的，所以在 Ubuntu 下的翻墻操作跟上面基本是一致的2333，只是在 Ubuntu 系統我們不需要給 Shadowsocks-Qt5 賦權就能夠直接雙擊軟件運行呢。
 
-![](//telegra.ph/file/fe3d9fca1810eacfd2d9b.png)
+![](/media/files/WEBP/sl11.webp)
 
 大功告成！測試一下... d=====(￣▽￣*)b
 
 **Google**
 
-![](//telegra.ph/file/ad4de590c8a650a662ba9.png)
+![](/media/files/WEBP/sl12.webp)
 
 ### Shadowsocks 系列
 
@@ -87,3 +87,4 @@ OK. 這樣我們就完成了 ElementaryOS 系統的翻墻大任了。 ✌
 3. [Shadowsocks 操作指導 -- Windows 篇](/ss-windows-cmd)
 4. [Shadowsocks 操作指導 -- Linux 篇](/ss-linux-cmd){:target="_self"}
 5. [Shadowsocks 節點分享](/Free-node-share)
+{:.poem}

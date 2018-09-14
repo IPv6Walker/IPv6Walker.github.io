@@ -6,7 +6,7 @@ tags:
  - 機智上網
 ---
 
-![](//telegra.ph/file/926d3c4d491a1feb577f4.jpg)
+![](//telegra.ph/file/926d3c4d491a1feb577f4.webp)
 
 ## 節點概念介紹
 
@@ -22,7 +22,7 @@ ss://YWVzLTEyOC1jZmI6WW91cnBhc3N3b3JkQFNlcnZlci5JUC5BZGRyZXNzOjQ0Mw==
 
 二维码形式示例
 
-![](//telegra.ph/file/0fbd372b92b0caa6cb3c5.png)
+![](//telegra.ph/file/0fbd372b92b0caa6cb3c5.webp)
 
 
 手動配置示例
@@ -36,7 +36,7 @@ Encryption: aes-128-cfb
 
 客戶端配置示例
 
-![](//telegra.ph/file/1b4f99bac63edc758051f.jpg)
+![](//telegra.ph/file/1b4f99bac63edc758051f.webp)
 
 ## 節點獲取方式
 
@@ -59,3 +59,4 @@ https://github.com/googlehosts/hosts/wiki/实验室
 3. [Shadowsocks 操作指導 -- Windows 篇](/ss-windows-cmd)
 4. [Shadowsocks 操作指導 -- Linux 篇](/ss-linux-cmd)
 5. [Shadowsocks 節點分享](/Free-node-share){:target="_self"}
+{:.poem}

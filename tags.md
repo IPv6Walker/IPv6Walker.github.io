@@ -1,7 +1,10 @@
 ---
-title: tags
+title: 标签
 layout: page
 ---
+
+<!-- Format your tags page -->
+<!-- 标签tags页的格式，一般情况下，你不需要修改这里的内容。 -->
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
@@ -14,7 +17,7 @@ layout: page
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item">
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}" style="margin:0 1em 0 0">{{ post.date | date:"%Y-%m-%d" }}</time>
+  <time datetime="{{ post.date | date:"%m-%d" }}" style="margin:0 .5em 0 0">{{ post.date | date:"%m-%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}" target="_self">{{ post.title }}</a>
   </li>
 {% endfor %}

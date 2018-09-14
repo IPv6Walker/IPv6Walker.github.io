@@ -7,7 +7,7 @@ tags:
  - 收录
 ---
 
-![](https://ws1.sinaimg.cn/large/78905b2cly1fqh1g0uo1kj21hc0u0u0z.jpg)
+![](/media/files/WEBP/table_1_1.webp)
 
 检索的核心在于精准的定位需求。工具则是最佳听众。
     
@@ -128,7 +128,7 @@ tags:
 
 | 名称 | 简介
 |-|-
-| [Telegra.ph](http://telegra.ph/) | Telegra.ph 可以作为一个匿名的图床, 支持所有格式的图片, gif, 5mb以内的视频, 测试速度流畅, **已支持 https ！**
+| [Telegra.ph](http://telegra.ph/) | Telegra.ph 可以作为一个匿名的图床, 支持所有格式的图片, webm, 5mb以内的视频, 测试速度流畅, **已支持 https ！**
 | [PicGo](https://github.com/Molunerfinn/PicGo) | 优秀的开源图床管理工具
 | [微博图床](https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf) | 基于微博相册开发的 Chrome 插件, 速度一流, 支持批量导入, https, 一键Markdown, 历史记录等丰富功能. [项目地址](https://github.com/Aqours/Weibo-Picture-Store)
 | [简单图床](https://simimg.com/) | 支持 https 和快速格式的图片链接, 注册可查看上传历史
@@ -140,8 +140,8 @@ tags:
 
 | 名称 | 简介
 |-|-
-| [程序员导航](http://code.giffox.com/) | Programming is like sex: one mistake and you're providing support for a lifetime. -- Michael Sinz
-| [FreeCodeCamp](https://www.freecodecamp.org/) | FreeCodeCamp（以下简称FCC）是全球最火的Web开发学习平台，鼓励Learning by Doing的学习方式。你可以在这里学习到前端、后端、数据可视化等几乎涵盖所有的Web开发知识 / [合集](https://zhuanlan.zhihu.com/p/22841310)
+| [程序员导航](http://code.webmfox.com/) | Programming is like sex: one mistake and you're providing support for a lifetime. -- Michael Sinz
+| [FreeCodeCamp](https://www.freecodecamp.org/) | FreeCodeCamp（以下简称FCC）是全球最火的Web开发学习平台 / [合集](https://zhuanlan.zhihu.com/p/22841310)
 
 ### ## 安全
 
@@ -155,8 +155,8 @@ tags:
 
 | 名称 | 简介
 |-|-
-| [List of Free Learning Resources](https://github.com/EbookFoundation/free-programming-books/) | 开源的免费技术资料 / Star:103621 / Fork:26359
-| [技术面试 - 笔记](https://github.com/CyC2018/Interview-Notebook) | 技术面试需要掌握的基础知识整理 / Star:14847 / Fork:3673
+| [List of Free Learning Resources](https://github.com/EbookFoundation/free-programming-books/) | 开源的免费技术资料 / Star:**103621** / Fork:**26359**
+| [技术面试 - 笔记](https://github.com/CyC2018/Interview-Notebook) | 技术面试需要掌握的基础知识整理 / Star:**14847** / Fork:**3673**
 | [🍿 A cross-browser library of CSS animations.](https://github.com/daneden/animate.css) | 跨浏览器的CSS动画库
 
 ### ## 教程
@@ -232,6 +232,6 @@ tags:
 
 文章可能不会同步更新，最新的书签文件已下载的为准。
 
-![](https://ws1.sinaimg.cn/large/78905b2cgy1fqh1h6c6soj20xp0judm2.jpg)
+![](/media/files/WEBP/table_1_2.webp)
 
-![](https://ws1.sinaimg.cn/large/78905b2cgy1fqh1hg4dyoj20ya0jo0xw.jpg)
+![](/media/files/WEBP/table_1_3.webp)

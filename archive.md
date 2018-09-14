@@ -1,7 +1,10 @@
 ---
-title: archive
+title: 存档
 layout: page
 ---
+
+<!-- Format your archive page -->
+<!-- 总览Archive页的格式，一般情况下，你不需要修改这里的内容。 -->
 
 <ul class="listing">
 {% for post in site.posts %}
@@ -11,8 +14,8 @@ layout: page
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" style="margin:0 1em 0 0">{{ post.date | date:"%Y-%m-%d" }}  </time>
-    <a href="{{ post.url }}" title="{{ post.title }}" target="_self">{{ post.title }}</a>
+    <time datetime="{{ post.date | date:"%m-%d" }}" style="margin:0 .5em 0 0">{{ post.date | date:"%m-%d" }}  </time>
+    <a href="{{ post.url }}" title="{{ post.title }}" target="_self" id="post-title">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>

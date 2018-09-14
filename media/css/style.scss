@@ -7,28 +7,32 @@
 //********************************************************
 
 //主字体集，注意：前两个字体仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
-//字体效果参见 www.ynewtime.com
-//如需启用，请自行于_config.yml中定制 kitID
-$font-name: "ten-mincho", "source-han-serif-sc", "Consolas", "Microsoft YaHei", STXihei;
+$font-sans: Consolas, Georgia, Helvetica, Tahoma, Arial, 'Noto Sans CJK SC', 'Noto Sans CJK', "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体";
+
+$font-serif: 'Noto Serif CJK SC', 'Noto Serif CJK', "Source Han Serif", "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", SimSun, "宋体";
 
 //字体颜色
 $font-color: #000000;
 
-//主字体设置
-$font: $font-name, serif;
+//主字体设置，serif，$font-sans 为 macOS 考虑
+$font: $font-serif, $font-sans, serif;
 
 //代码字体
 @font-face{
   font-family: 'YaHei Consolas Hybrid';
-  src: url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+  src : url('/media/fonts/yaheiconsolashybrid.ttf');
 }
-$monospace: 'YaHei Consolas Hybrid', $font-name, monospace;
+@font-face{
+  font-family: 'Consolas with Yahei Nerd';
+  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+}
+$monospace: $font-sans,'Consolas with Yahei Nerd','YaHei Consolas Hybrid',monospace;
 
 //标签字体
-$label-font: $font-name, sans-serif;
+$label-font: $font-sans, sans-serif;
 
 //时间字体
-$time-font: "Ubuntu", $font-name, monospace;
+$time-font: "Ubuntu", $font-sans, monospace;
 
 //主背景颜色
 $background-color: #f2f2f2; //淡青，现代风格
@@ -78,7 +82,7 @@ blockquote {
   margin: 1em 1em;
   border-left: 1px dashed #999;
   padding-left: 1em;
-  font-family: $font-name, fantasy; 
+  font-family: $font-serif, fantasy; 
 }
 blockquote p:first-letter {
   float: left;
@@ -125,7 +129,7 @@ header {
     position: relative;
     top: 1em;
     h1 {
-      font-family: #{$label-font};
+      font-family: #{$font};
       a { text-decoration: none;
         color: #a9a9a9; display: block; &:hover { color: #{$highlight-color}; };
       }
@@ -164,7 +168,8 @@ article {
   margin: 2em 0;
   p { padding: .7em 0; }
   .title {
-    font-family: #{$label-font};
+    font-family: #{$font-serif};
+    font-weight: 700;
     a { @extend a; color: #777; }
   }
 
@@ -217,7 +222,7 @@ footer {
   @include page;
   display: block;
   color: #909090;
-  font-family: #{$label-font};
+  font-family: #{$font};
   font-size: .9em;
   text-align: center;
   //margin: 1em auto;
@@ -327,10 +332,10 @@ table th,td{
 .poem {
   //你可以反注释掉这一行来启用 .poem 的背景
   //background: url("/media/bg/type.png") repeat;
-  margin: 0 auto;
+  margin: 0 0 1em 0;
   padding: .5em 1em;
   border-radius: 10px;
-  border: 2px solid #{$poem-color};
+  border: 3px solid #{$poem-color};
 }
 
 //响应式图片样式开始

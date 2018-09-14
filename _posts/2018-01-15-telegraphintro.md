@@ -12,7 +12,7 @@ tags:
 作为 Telegram 的骨灰 fan  
 跟虫友们聊聊 Telegram 推出的一款匿名的单页文章发布平台  
 
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4d5jjmrj212j0j9wei.jpg){:.smaller}
+![](/media/files/WEBP/telegraph1.webp)
 
 <!--more-->
 
@@ -27,6 +27,7 @@ Telegram 作为无广告非 zhengfu 永不上市的宇宙良心公司
 想必深受极简主义者和设计师的喜爱  
 
 ## 特点  
+
 1. 操作简洁
 2. 页面干净
 3. 支持图片导入和外链
@@ -35,8 +36,9 @@ Telegram 作为无广告非 zhengfu 永不上市的宇宙良心公司
 6. 支持单条推特信息引用并预览
 7. 支持 Youtube 、Vimeo 外链和预览
 8. 登陆Telegram可作为轻博客发布平台
+{:.poem}
 
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4dekl0hj21210j8k5f.jpg){:.smaller}
+![](/media/files/WEBP/tp2.webp)
 
 ## 进阶应用  
 深入挖掘 telegra.ph 我们可以发现  
@@ -48,7 +50,7 @@ publish / 发布后右键图片
 选择“复制图片链接”  
 再分享就 OK 啦  
 
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn4dg4jn6j212j0j9drl.jpg){:.smaller}
+![](/media/files/WEBP/tp3.webp)
 
 ## More  
 文章 title 最好用英文的哦  

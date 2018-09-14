@@ -7,7 +7,7 @@ tags:
  - 教程
 ---
  
-![](https://ws2.sinaimg.cn/large/78905b2cgy1fpn47tck01j211y0lcqs5.jpg){:.border.rounded}
+![](/media/files/WEBP/eleos.webp)
 
 <!--more-->
 
@@ -61,14 +61,14 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 
 安装 Tweakstool 和 Paper 主题后的效果：
 
-![](https://wx1.sinaimg.cn/large/78905b2cgy1fqgzh6sc94j211y0lcwkt.jpg){:.border.rounded}
+![](/media/files/WEBP/ele2.webp)
 
-![](https://wx1.sinaimg.cn/large/78905b2cgy1fqgzh62wtlj211y0lcgrz.jpg){:.border.rounded}
+![](/media/files/WEBP/ele3.webp)
 
 安装 Telegram desktop 后，可以看到，Telegram 做到了惊人的全 PC 客户端版本同步：
 
-![](https://wx1.sinaimg.cn/large/78905b2cgy1fqgzh68yb3j211y0lcak3.jpg){:.border.rounded}
+![](/media/files/WEBP/ele4.webp)
 
 Chrome Browser：
 
-![](https://wx1.sinaimg.cn/large/78905b2cgy1fqgzh6gl2gj211y0lcn2e.jpg){:.border.rounded}
+![](/media/files/WEBP/ele5.webp)

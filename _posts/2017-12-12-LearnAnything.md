@@ -19,9 +19,9 @@ tags:
 
 我们正在试图建立一个开源的网站，可以让你通过线性的学习路径，交互式的学习地图掌握任何知识。它以独特的方式关联着世界上的所有知识。这个项目是开源的，不论是整个网站还是搜索知识所用的地图都是开源的。
 
-![](https://wx1.sinaimg.cn/large/78905b2cly1fqgzcaixuoj20k009lmx6.jpg){:.smaller}*搜索 health，弹出的知识图谱*
+![](/media/files/WEBP/health.webp){:.smaller}*搜索 health，弹出的知识图谱*
 
-![](https://wx1.sinaimg.cn/large/78905b2cly1fqgzcsoae0j20k00btgln.jpg){:.smaller}*fitness 下的 Strength Training，有各种细分，就不一一列举了*
+![](/media/files/WEBP/strength.webp){:.smaller}*fitness 下的 Strength Training，有各种细分，就不一一列举了*
 
 ### 介绍
 
