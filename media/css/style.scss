@@ -1,0 +1,393 @@
+@import url("/media/css/pygments.css");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300");
+@import "media-queries";
+
+//********************************************************
+//                    Variables
+//********************************************************
+
+//主字体集，注意：前两个字体仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
+$font-sans: Consolas, Georgia, Helvetica, Tahoma, Arial, 'Noto Sans CJK SC', 'Noto Sans CJK', "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体";
+
+$font-serif: 'Noto Serif CJK SC', 'Noto Serif CJK', "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", "Source Han Serif", SimSun, "宋体";
+
+//字体颜色
+$font-color: #000000;
+
+//主字体设置，serif，$font-sans 为 macOS 考虑
+$font: $font-serif, $font-sans, serif;
+
+//代码字体
+@font-face{
+  font-family: 'YaHei Consolas Hybrid';
+  src : url('/media/fonts/yaheiconsolashybrid.ttf');
+}
+@font-face{
+  font-family: 'Consolas with Yahei Nerd';
+  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+}
+$monospace: 'Consolas with Yahei Nerd','YaHei Consolas Hybrid',$font-sans,monospace;
+
+//标签字体
+$label-font: $font-sans, sans-serif;
+
+//时间字体
+$time-font: "Ubuntu", $font-sans, monospace;
+
+//主背景颜色
+$background-color: #f2f2f2; //淡青，现代风格
+//$background-color: rgb(253, 246, 227); //Solarized，暖色
+//$background-color: #ffffff; //纯白，强调
+
+//高亮主基色
+$highlight-color: #2bb6c9;
+
+//强调样式主颜色
+$poem-color: #D2E354;
+
+//使用这个背景图片，或者从 /media/files/bg 抑或 transparenttextures.com 中挑一个
+$background-pattern: 'skulls.png';
+
+@mixin page {
+  margin: 0 auto;
+  @include min-screen(320px) { width: 315px; }
+  @include min-screen(375px) { width: 370px; }
+  @include min-screen(414px) { width: 410px; }
+  @include min-screen(800px) { width: 780px; }
+}
+
+//********************************************************
+//                  Common styles
+//********************************************************
+
+* { margin: 0; padding: 0; }
+
+body { 
+  font-size: 18px; 
+  font-family: #{$font};
+  color: #{$font-color}; 
+  background: $background-color url("/media/bg/#{$background-pattern}");
+  -webkit-font-smoothing: antialiased; 
+}
+
+//列表，分隔符，链接，选中
+ol, ul { list-style-position: inside; }
+li { padding: .4em 0; margin: 0 0 0 1em;}
+hr { border: none; margin: 1em 0; border-top: 1px dashed #999; border-bottom: 1px dashed #ffffff; }
+a { text-decoration: none; color: #{$font-color}; &:hover { color: #{$highlight-color}; }; }
+::selection { color: #fff; background-color: #333; }
+
+//引用样式
+blockquote {
+  margin: 1em 1em;
+  border-left: 1px dashed #999;
+  padding-left: 1em;
+  font-family: $font-serif, fantasy; 
+}
+blockquote p:first-letter {
+  float: left;
+  margin: .2em .3em .1em 0;
+  font-size: 220%;
+  font-weight: bold; }
+
+//代码块样式
+//长代码区
+pre code {
+  padding: 0 1em;
+  margin: 1em 0;
+  display: block;
+  overflow: auto; 
+  font-size: .8em;
+  background-color: #{$background-color};
+  border-left: 4px solid #{$highlight-color};
+  border-color: #{$highlight-color} !important;
+}
+//小代码块
+code {
+  padding: .2em .2em; 
+  border: 1.5px dashed #909090; 
+  font-family: $monospace; 
+}
+
+//标题样式，最佳实践
+h1 { font-size: 2em; margin: 2em 0 .5em 0; }
+h2 { font-size: 1.5em; margin: 2em 0 .5em 0; }
+h3 { font-size: 1.17em; margin: 2em 0 .5em 0; }
+h4 { font-size: 1em; margin: 2em 0 .5em 0; }
+
+//博客上的时间样式
+time { font-family: #{$time-font} }
+
+header {
+  @include page;
+  text-align: justify;
+  margin: 3em auto;
+  &:after { content: ''; width: 100%; display: inline-block; }
+
+  #header {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    h1 {
+      font-family: #{$font};
+      a { text-decoration: none;
+        color: #a9a9a9; display: block; &:hover { color: #{$highlight-color}; };
+      }
+    }
+  }
+
+  nav {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    span { margin: .5em; }
+    a {
+      font-family: #{$label-font}; color: #ccc;
+    }
+  }
+}
+
+#content {
+  @include page;
+  line-height: 2em;
+  .main-listing { margin-bottom: 2em; }
+  a { color: #{$font-color}; &:hover { color: #{$highlight-color}; }; }
+}
+
+ul.listing {
+  margin-top: 1em;
+  li {
+    list-style-type:none;
+    padding: 0;
+    &.listing-item { a {border-bottom: 2px solid #{$highlight-color}; padding: .2em 0 .2em 0em; } time { color: #999; } &:hover { color: #{$highlight-color}; } }
+    &.listing-seperator {margin:1em 0; font-size:1em;  font-family: #{$label-font}; &:before { content: "#=== "; color: #ccc; } &:after { content: " ===#"; color: #ccc; } }
+  }
+}
+
+article {
+  margin: 2em 0;
+  p { padding: .7em 0; }
+  .title {
+    font-family: #{$font-serif};
+    font-weight: 700;
+    a { @extend a; color: #777; }
+  }
+
+  .meta {
+    display: block;
+    overflow: auto;
+    margin-top: -.5em;
+    font-size: .9em;
+    .tags a { @extend a; border-bottom: 2px solid #{$highlight-color}; color: #999999; padding: .25em; }
+    .author a { @extend a; border-bottom: 2px solid #{$highlight-color}; color: #999999; padding: .25em; }
+  }
+
+  .post { 
+    a { color: #{$font-color}; border-bottom: 2px solid #{$highlight-color}; &:hover { color: #{$highlight-color}; }; }
+    img { max-width: 100%; display: block; margin: .5em auto; } }
+
+  .comment { margin: 3em 0; }
+  .divider {
+    margin: 2em 0 0 0;
+
+    i { margin: 0 1em; color: #999999; }
+
+    a { @extend a;
+      font-family: #{$label-font};
+      margin: 0 1em;
+      i { color: #999999; margin: 0; &:hover { color: #{$highlight-color} !important; } }
+    }
+  }
+  .divider {
+    position: relative;
+    font-size: 1em;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+  }
+  .divider:before, .divider:after {
+    position: absolute;
+    top: 50%;
+    //overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #{$highlight-color};
+  }
+  .divider:before { margin-left: -50%; text-align: right; }
+  .divider:after { margin-left: 1%; }
+}
+
+footer {
+  @include page;
+  display: block;
+  color: #909090;
+  font-family: #{$font};
+  font-size: .9em;
+  text-align: center;
+  //margin: 1em auto;
+  a { color: #{$font-color}; &:hover {  border-bottom: 2px solid #{$highlight-color}; color: #{$highlight-color}; }; }
+}
+
+#tag_cloud { margin-bottom: 1em; }
+
+// gist
+.gist { font-size: 18px; line-height:1.6; }
+
+// embed
+.embed-responsive{
+  position:relative;
+  display:block;
+  height:0;
+  padding:0;
+  overflow:hidden
+}
+
+.embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border:0
+}
+
+.embed-responsive.embed-responsive-16by9{
+  padding-bottom:56.25%
+}
+
+.embed-responsive.embed-responsive-4by3{
+  padding-bottom:75%
+}
+
+.embed-responsive-21by9{
+  padding-top: 42.857143%;
+}
+
+.embed-responsive-1by1{
+  padding-top: 100%;
+}
+
+// custom
+.small {
+  zoom: 50%
+}
+
+img + em {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+// note
+.note {
+  position:relative;
+  border: 0;
+}
+.note:before {
+  content: "\f06a";
+  font-size: 2em;
+  font-family: FontAwesome;
+  left: 0px;
+  margin: 0 .1em 0 0;
+  position: relative;
+  color: rgb(43, 182, 201);
+}
+
+// table
+table{
+  // background-color: #fafafa;
+  // background: url("/media/bg/type.png") repeat;
+  border-left: 2px solid #{$highlight-color};
+  border-top: 2px solid #{$highlight-color};
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto 10px;
+  word-wrap:break-word; word-break:break-all;
+}
+table th{
+  text-transform: uppercase;
+  text-align: center;
+  padding: .5em .75em;
+}
+table th,td{
+  padding: .5em;
+  border: 2px solid #{$highlight-color};
+}
+
+// key
+.key {
+  font-size: 1.0em;
+  box-shadow: 1px 0 1px 0 #555, 0 1px 0 2px #888, 0 2px 0 2px #777;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 2px 3px;
+  padding: 0px 5px;
+}
+
+// 长段文字的说明栏
+.poem {
+  //你可以反注释掉这一行来启用 .poem 的背景
+  //background: url("/media/bg/type.png") repeat;
+  margin: 0 0 1em 0;
+  padding: .5em 1em;
+  border-radius: 10px;
+  border: 3px solid #{$poem-color};
+}
+
+//响应式图片样式开始
+//双栏图片，如果想保持栏目等宽高，请先处理图片
+div.img {
+    border: 1px solid #999;
+}
+
+div.img:hover {
+    border: 1px solid #{$highlight-color};
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    margin: 1em 0;
+    float: left;
+    width: 50%;
+}
+
+@media only screen and (max-width: 50%){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 50%){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+//给某段文字赋予居中显示样式
+//使用：下一段非隔行添加 {:.center}
+.center { text-align: center; }

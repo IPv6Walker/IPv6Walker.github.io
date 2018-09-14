@@ -13,7 +13,7 @@
 
 body {
   font-size: 18px;
-  font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, SimSun, 宋体, Consolas, Georgia, Helvetica, Tahoma, Arial, Noto Sans CJK SC, Noto Sans CJK, Source Han Sans, Source Han Sans SC, source-han-sans-sc, PingFang SC, STXihei, 华文细黑, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, 文泉驿微米黑, Heiti, 黑体, serif;
+  font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, Source Han Serif, SimSun, 宋体, Consolas, Georgia, Helvetica, Tahoma, Arial, Noto Sans CJK SC, Noto Sans CJK, Source Han Sans, Source Han Sans SC, source-han-sans-sc, PingFang SC, STXihei, 华文细黑, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, 文泉驿微米黑, Heiti, 黑体, serif;
   color: #000000;
   background: #f2f2f2 url("/media/bg/skulls.png");
   -webkit-font-smoothing: antialiased; }
@@ -45,7 +45,7 @@ blockquote {
   margin: 1em 1em;
   border-left: 1px dashed #999;
   padding-left: 1em;
-  font-family: "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif", "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", SimSun, "宋体", fantasy; }
+  font-family: "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", "Source Han Serif", SimSun, "宋体", fantasy; }
 
 blockquote p:first-letter {
   float: left;
@@ -112,7 +112,7 @@ header {
     position: relative;
     top: 1em; }
     header #header h1 {
-      font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, SimSun, 宋体, Consolas, Georgia, Helvetica, Tahoma, Arial, Noto Sans CJK SC, Noto Sans CJK, Source Han Sans, Source Han Sans SC, source-han-sans-sc, PingFang SC, STXihei, 华文细黑, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, 文泉驿微米黑, Heiti, 黑体, serif; }
+      font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, Source Han Serif, SimSun, 宋体, Consolas, Georgia, Helvetica, Tahoma, Arial, Noto Sans CJK SC, Noto Sans CJK, Source Han Sans, Source Han Sans SC, source-han-sans-sc, PingFang SC, STXihei, 华文细黑, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, 文泉驿微米黑, Heiti, 黑体, serif; }
       header #header h1 a {
         text-decoration: none;
         color: #a9a9a9;
@@ -179,7 +179,7 @@ article {
   article p {
     padding: .7em 0; }
   article .title {
-    font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, SimSun, 宋体;
+    font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, Source Han Serif, SimSun, 宋体;
     font-weight: 700; }
     article .title a, article .title .meta .tags a, article .meta .tags .title a, article .title .meta .author a, article .meta .author .title a {
       color: #777; }
@@ -243,7 +243,7 @@ footer {
   margin: 0 auto;
   display: block;
   color: #909090;
-  font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, SimSun, 宋体, Consolas, Georgia, Helvetica, Tahoma, Arial, Noto Sans CJK SC, Noto Sans CJK, Source Han Sans, Source Han Sans SC, source-han-sans-sc, PingFang SC, STXihei, 华文细黑, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, 文泉驿微米黑, Heiti, 黑体, serif;
+  font-family: Noto Serif CJK SC, Noto Serif CJK, Source Han Serif SC, source-han-serif-sc, PingFang SC, ten-mincho, Source Han Serif, SimSun, 宋体, Consolas, Georgia, Helvetica, Tahoma, Arial, Noto Sans CJK SC, Noto Sans CJK, Source Han Sans, Source Han Sans SC, source-han-sans-sc, PingFang SC, STXihei, 华文细黑, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, 文泉驿微米黑, Heiti, 黑体, serif;
   font-size: .9em;
   text-align: center; }
   @media screen and (min-width: 320px) {
