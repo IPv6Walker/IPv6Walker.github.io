@@ -26,7 +26,11 @@ $font: $font-serif, $font-sans, serif;
   font-family: 'Consolas with Yahei Nerd';
   src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
 }
-$monospace: 'Consolas with Yahei Nerd','YaHei Consolas Hybrid',$font-sans,monospace;
+@font-face{
+  font-family: 'Microsoft Yahei Mono';
+  src: url('/media/fonts/Micro-Yahi-Mono.ttf')
+}
+$monospace: 'Microsoft Yahei Mono','Consolas with Yahei Nerd','YaHei Consolas Hybrid',$font-sans,monospace;
 
 //标签字体
 $label-font: $font-sans, sans-serif;

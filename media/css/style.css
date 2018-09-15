@@ -7,6 +7,9 @@
 @font-face {
   font-family: 'Consolas with Yahei Nerd';
   src: url("/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf"); }
+@font-face {
+  font-family: 'Microsoft Yahei Mono';
+  src: url("/media/fonts/Micro-Yahi-Mono.ttf"); }
 * {
   margin: 0;
   padding: 0; }
@@ -66,7 +69,7 @@ pre code {
 code {
   padding: .2em .2em;
   border: 1.5px dashed #909090;
-  font-family: "Consolas with Yahei Nerd", "YaHei Consolas Hybrid", Consolas, Georgia, Helvetica, Tahoma, Arial, "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体", monospace; }
+  font-family: "Microsoft Yahei Mono", "Consolas with Yahei Nerd", "YaHei Consolas Hybrid", Consolas, Georgia, Helvetica, Tahoma, Arial, "Noto Sans CJK SC", "Noto Sans CJK", "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体", monospace; }
 
 h1 {
   font-size: 2em;
