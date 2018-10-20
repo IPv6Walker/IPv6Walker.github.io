@@ -3,7 +3,7 @@
 # This theme is pure jekyll theme so you don't need to use bundle
 # Instead, just run 'jekyll serve', then visit 127.0.0.1:4000 to check your site offline.
 
-name: 'L'' # put the site's name here
+name: 'L' # put the site's name here
 permalink: /:title # the way you wanna your links look like ==> https://jekyllrb.com/docs/permalinks/
 
 description: "| IPv6 | 科学上网 | t.me/antakotaro |" # put your site's description here

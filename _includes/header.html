@@ -1,0 +1,12 @@
+<header>
+    <!-- 标题栏 -->
+    <div id="header">
+        <h1><a title="{{ site.name }}" class="" href="/" target="_self" >{{ site.name }}</a></h1>
+    </div>
+    <!-- 标签栏 -->
+    <nav>
+        {% for nav in site.navigations %}
+        <span><a title="{{ nav.title }}" href="{{ nav.href }}" target="_self"><i class="{{ nav.class }}"></i></a></span>
+        {% endfor %}
+    </nav>
+</header>

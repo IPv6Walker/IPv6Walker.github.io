@@ -6,51 +6,67 @@
 //                    Variables
 //********************************************************
 
-//主字体集，注意：前两个字体仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
-$font-sans: Consolas, Georgia, Helvetica, Tahoma, Arial, 'Noto Sans CJK SC', 'Noto Sans CJK', "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体";
+//黑体，非衬体
+$font-hei: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+//楷体，衬体
+$font-kai: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+//宋体，衬体
+$font-song: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif; 
+//仿宋，衬体
+$font-fang-song: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif;
 
-$font-serif: 'Noto Serif CJK SC', 'Noto Serif CJK', "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", "Source Han Serif", SimSun, "宋体";
+//暂停使用
+//主字体集，注意：source-han-sans-sc 和 tenmincho 的网络加载仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
+//$font-sans: consolas, Tahoma, Helvetica, Courier, Arial, 'Noto Sans CJK SC', 'Noto Sans CJK', "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体", sans-serif;
+//暂停使用
+//$font-serif: 'Times New Roman', Georgia, 'Noto Serif CJK SC', 'Noto Serif CJK', "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", "Source Han Serif", serif;
+
+//主字体
+$font: Georgia, Baskerville, "Times New Roman", "source-han-serif-sc", "Microsoft YaHei", $font-song;
 
 //字体颜色
 $font-color: #000000;
 
-//主字体设置，serif，$font-sans 为 macOS 考虑
-$font: $font-serif, $font-sans, serif;
-
 //代码字体
-@font-face{
-  font-family: 'YaHei Consolas Hybrid';
-  src : url('/media/fonts/yaheiconsolashybrid.ttf');
-}
-@font-face{
-  font-family: 'Consolas with Yahei Nerd';
-  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
-}
+//@font-face{
+//  font-family: 'YaHei Consolas Hybrid';
+//  src : url('/media/fonts/yaheiconsolashybrid.ttf');
+//}
+//@font-face{
+//  font-family: 'Consolas with Yahei Nerd';
+//  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+//}
 @font-face{
   font-family: 'Microsoft Yahei Mono';
-  src: url('/media/fonts/Micro-Yahi-Mono.ttf')
+  src: url('/media/fonts/Microsoft-YaHei-Mono.ttf')
 }
-$monospace: 'Microsoft Yahei Mono','Consolas with Yahei Nerd','YaHei Consolas Hybrid',$font-sans,monospace;
+$monospace: 'Microsoft Yahei Mono', Consolas, $font-hei, monospace;
+
+//blockquote字体
+$blockquote: $font;
 
 //标签字体
-$label-font: $font-sans, sans-serif;
+$label-font: $font-hei;
 
 //时间字体
-$time-font: "Ubuntu", $font-sans, monospace;
+$time-font: "Ubuntu", $label-font, monospace;
 
 //主背景颜色
-$background-color: #f2f2f2; //淡青，现代风格
+$background-color: rgb(248,248,248); //淡青，现代风格
 //$background-color: rgb(253, 246, 227); //Solarized，暖色
 //$background-color: #ffffff; //纯白，强调
+
+//使用这个背景图片，或者从 transparenttextures.com 中挑一个
+$background-pattern: 'full-bloom.png';
 
 //高亮主基色
 $highlight-color: #2bb6c9;
 
 //强调样式主颜色
-$poem-color: #D2E354;
+$poem-color: rgb(225, 255, 0);
 
-//使用这个背景图片，或者从 /media/files/bg 抑或 transparenttextures.com 中挑一个
-$background-pattern: 'skulls.png';
+//强调样式字体
+$poem-font: $font;
 
 @mixin page {
   margin: 0 auto;
@@ -67,32 +83,38 @@ $background-pattern: 'skulls.png';
 * { margin: 0; padding: 0; }
 
 body { 
-  font-size: 18px; 
+  font-size: 16px; 
   font-family: #{$font};
-  color: #{$font-color}; 
-  background: $background-color url("/media/bg/#{$background-pattern}");
+  color: $font-color; 
+  //background: $background-color url("https://yenwtime-1255970624.cos.ap-guangzhou.myqcloud.com/bg/#{$background-pattern}");
   -webkit-font-smoothing: antialiased; 
 }
 
 //列表，分隔符，链接，选中
-ol, ul { list-style-position: inside; }
-li { padding: .4em 0; margin: 0 0 0 1em;}
+ol, ul { list-style-position: inside;}
+li { padding: .4em 0; margin: 0 0 0 1em; }
 hr { border: none; margin: 1em 0; border-top: 1px dashed #999; border-bottom: 1px dashed #ffffff; }
 a { text-decoration: none; color: #{$font-color}; &:hover { color: #{$highlight-color}; }; }
 ::selection { color: #fff; background-color: #333; }
 
 //引用样式
-blockquote {
-  margin: 1em 1em;
-  border-left: 1px dashed #999;
-  padding-left: 1em;
-  font-family: $font-serif, fantasy; 
+@font-face{
+  font-family: '方正宋刻本秀楷繁体';
+  src: url('/media/fonts/方正宋刻本秀楷繁体.otf')
 }
-blockquote p:first-letter {
-  float: left;
-  margin: .2em .3em .1em 0;
-  font-size: 220%;
-  font-weight: bold; }
+blockquote {
+  margin: 1em 0;
+  border-left: 2px dashed #909090;
+  padding-left: 1em;
+  font-size: 18px;
+  font-family: $blockquote, fantasy; 
+  color: #909090;
+}
+//blockquote p:first-letter {
+//  float: left;
+//  margin: .2em .3em .1em 0;
+//  font-size: 220%;
+//  font-weight: bold; }
 
 //代码块样式
 //长代码区
@@ -102,6 +124,7 @@ pre code {
   display: block;
   overflow: auto; 
   font-size: .8em;
+  font-family: $monospace, monospace;
   background-color: #{$background-color};
   border-left: 4px solid #{$highlight-color};
   border-color: #{$highlight-color} !important;
@@ -110,14 +133,14 @@ pre code {
 code {
   padding: .2em .2em; 
   border: 1.5px dashed #909090; 
-  font-family: $monospace; 
+  font-family: $monospace, monospace; 
 }
 
 //标题样式，最佳实践
-h1 { font-size: 2em; margin: 2em 0 .5em 0; }
-h2 { font-size: 1.5em; margin: 2em 0 .5em 0; }
-h3 { font-size: 1.17em; margin: 2em 0 .5em 0; }
-h4 { font-size: 1em; margin: 2em 0 .5em 0; }
+h1 { font-size: 32px; margin: 2em 0 .5em 0; }
+h2 { font-size: 24px; margin: 2em 0 .5em 0; }
+h3 { font-size: 20px; margin: 2em 0 .5em 0; }
+h4 { font-size: 18px; margin: 2em 0 .5em 0; }
 
 //博客上的时间样式
 time { font-family: #{$time-font} }
@@ -133,7 +156,7 @@ header {
     position: relative;
     top: 1em;
     h1 {
-      font-family: #{$font};
+      font-family: #{$font-hei};
       a { text-decoration: none;
         color: #a9a9a9; display: block; &:hover { color: #{$highlight-color}; };
       }
@@ -160,11 +183,12 @@ header {
 
 ul.listing {
   margin-top: 1em;
+  a { color: #{$font-color}; &:hover { color: #{$highlight-color}; }; }
   li {
     list-style-type:none;
     padding: 0;
-    &.listing-item { a {border-bottom: 2px solid #{$highlight-color}; padding: .2em 0 .2em 0em; } time { color: #999; } &:hover { color: #{$highlight-color}; } }
-    &.listing-seperator {margin:1em 0; font-size:1em;  font-family: #{$label-font}; &:before { content: "#=== "; color: #ccc; } &:after { content: " ===#"; color: #ccc; } }
+    &.listing-item { a { padding: .2em 0 .2em 0em; } time { color: #{$highlight-color};margin:0 .5em 0 0;font-weight:bold; } &:hover { color: #{$highlight-color}; } }
+    &.listing-seperator {margin:1em 0; font-size:1em;  font-family: #{$label-font}; font-weight: bold; &:before { content: "『　"; color: #ccc; } &:after { content: "　』"; color: #ccc; } }
   }
 }
 
@@ -172,18 +196,22 @@ article {
   margin: 2em 0;
   p { padding: .7em 0; }
   .title {
-    font-family: #{$font-serif};
+    font-family: #{$font};
     font-weight: 700;
     a { @extend a; color: #777; }
   }
 
   .meta {
     display: block;
+    color:#909090;
     overflow: auto;
     margin-top: -.5em;
-    font-size: .9em;
-    .tags a { @extend a; border-bottom: 2px solid #{$highlight-color}; color: #999999; padding: .25em; }
-    .author a { @extend a; border-bottom: 2px solid #{$highlight-color}; color: #999999; padding: .25em; }
+    font-size: .8em;
+    font-family: #{$label-font};
+    .item { 
+      color:#909090;
+      a { color:#909090; &:hover { color: #{$highlight-color};} }
+    }
   }
 
   .post { 
@@ -194,17 +222,18 @@ article {
   .divider {
     margin: 2em 0 0 0;
 
-    i { margin: 0 1em; color: #999999; }
+    i { margin: 0 1em; color: #909090; }
 
     a { @extend a;
       font-family: #{$label-font};
       margin: 0 1em;
-      i { color: #999999; margin: 0; &:hover { color: #{$highlight-color} !important; } }
+      i { color: #909090; margin: 0; &:hover { color: #{$highlight-color} !important; } }
     }
   }
   .divider {
     position: relative;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: bolder;
     z-index: 1;
     overflow: hidden;
     text-align: center;
@@ -226,9 +255,10 @@ footer {
   @include page;
   display: block;
   color: #909090;
-  font-family: #{$font};
-  font-size: .9em;
+  font-family: #{$label-font};
+  font-size: .8em;
   text-align: center;
+  margin-top: 5em;
   //margin: 1em auto;
   a { color: #{$font-color}; &:hover {  border-bottom: 2px solid #{$highlight-color}; color: #{$highlight-color}; }; }
 }
@@ -275,14 +305,20 @@ footer {
 
 // custom
 .small {
-  zoom: 50%
+  zoom: 0.5;
 }
 
+//img em
+@font-face{
+  font-family: 'Jing-Lei';
+  src: url('/media/fonts/Jing-Lei.ttf')
+}
 img + em {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: Baskerville, Georgia, "Liberation Serif", 'Jing-Lei', $font-kai;
 }
 
 // note
@@ -303,7 +339,7 @@ img + em {
 // table
 table{
   // background-color: #fafafa;
-  // background: url("/media/bg/type.png") repeat;
+  // background: url("https://yenwtime-1255970624.cos.ap-guangzhou.myqcloud.com/bg/type.png") repeat;
   border-left: 2px solid #{$highlight-color};
   border-top: 2px solid #{$highlight-color};
   border-collapse: collapse;
@@ -335,11 +371,14 @@ table th,td{
 // 长段文字的说明栏
 .poem {
   //你可以反注释掉这一行来启用 .poem 的背景
-  //background: url("/media/bg/type.png") repeat;
-  margin: 0 0 1em 0;
-  padding: .5em 1em;
-  border-radius: 10px;
-  border: 3px solid #{$poem-color};
+  //background: url("https://yenwtime-1255970624.cos.ap-guangzhou.myqcloud.com/bg/type.png") repeat;
+  margin: 1em 0;
+  padding: 1em 1em;
+  font-size: 16px;
+  background-color: #{$background-color};
+  border-top: 1.5px dashed #909090;
+  border-bottom: 1.5px dashed #909090;
+  font-family: #{$poem-font};
 }
 
 //响应式图片样式开始
@@ -358,7 +397,7 @@ div.img img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -367,8 +406,8 @@ div.desc {
 }
 
 .responsive {
-    padding: 0 6px;
-    margin: 1em 0;
+    padding: 0 2px;
+    margin: .5em 0;
     float: left;
     width: 50%;
 }
@@ -376,13 +415,7 @@ div.desc {
 @media only screen and (max-width: 50%){
     .responsive {
         width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 50%){
-    .responsive {
-        width: 100%;
+        margin: 2px 0;
     }
 }
 

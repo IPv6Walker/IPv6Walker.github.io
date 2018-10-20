@@ -1,0 +1,10 @@
+<footer>
+    <!-- 作者 &copy; 站点时间 -->
+    <div>
+        {% assign first_post = site.posts | last %}
+        <a href="{{site.social}}" style="color:#909090;"><i class="fa fa-user" style="color:#909090;"></i> {{site.author}}</a> | <i class="fa fa-calendar"></i> {{ first_post.date | date: "%Y" }}-{{ site.time | date: "%Y" }} | <i class="fa fa-globe"></i>Themed by <a href="https://github.com/Ynewtime" title="Y">Y</a>
+    </div>
+    <!-- 访问统计 | 主题作者 
+    <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i>访问量:<span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv"> | <i class="fa fa-user-circle"></i>访客数:<span id="busuanzi_value_site_uv"></span></span> | <i class="fa fa-globe"></i>Themed by <a href="https://github.com/Ynewtime" title="Y">Y</a>
+    -->
+</footer>

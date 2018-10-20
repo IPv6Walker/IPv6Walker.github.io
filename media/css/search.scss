@@ -1,0 +1,128 @@
+@import url("/media/css/pygments.css");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300");
+@import "media-queries";
+
+//********************************************************
+//                    Variables
+//********************************************************
+
+//主字体集，注意：前两个字体仅限于 *.ynewtime.com 分别适配思源和貂明朝，来自 ADOBE
+$font-sans: Consolas, Georgia, Helvetica, Tahoma, Arial, 'Noto Sans CJK SC', 'Noto Sans CJK', "Source Han Sans", "Source Han Sans SC", "source-han-sans-sc", "PingFang SC", STXihei, "华文细黑", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "文泉驿微米黑", Heiti, "黑体";
+
+$font-serif: Georgia, Helvetica, Tahoma, Arial, 'Noto Serif CJK SC', 'Noto Serif CJK', "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "ten-mincho", "Source Han Serif", SimSun, "宋体";
+
+//字体颜色
+$font-color: #000000;
+
+//主字体设置，serif，$font-sans 为 macOS 考虑
+$font: $font-serif, $font-sans, serif;
+
+//代码字体
+@font-face{
+  font-family: 'YaHei Consolas Hybrid';
+  src : url('/media/fonts/yaheiconsolashybrid.ttf');
+}
+@font-face{
+  font-family: 'Consolas with Yahei Nerd';
+  src : url('/media/fonts/Consolas-with-Yahei-Nerd-Font.ttf');
+}
+@font-face{
+  font-family: 'Microsoft Yahei Mono';
+  src: url('/media/fonts/Microsoft-YaHei-Mono.ttf')
+}
+$monospace: 'Microsoft Yahei Mono','Consolas with Yahei Nerd','YaHei Consolas Hybrid',$font-sans,monospace;
+
+//blockquote字体
+$blockquote: "ten-mincho",'Noto Serif CJK SC', 'Noto Serif CJK', "Source Han Serif SC", "source-han-serif-sc", "PingFang SC", "Source Han Serif", SimSun, "宋体";
+
+//标签字体
+$label-font: $font-sans, sans-serif;
+
+//时间字体
+$time-font: "Ubuntu", $font-sans, monospace;
+
+//主背景颜色
+$background-color: #f2f2f2; //淡青，现代风格
+//$background-color: rgb(253, 246, 227); //Solarized，暖色
+//$background-color: #ffffff; //纯白，强调
+
+//高亮主基色
+$highlight-color: #2bb6c9;
+
+//强调样式主颜色
+$poem-color: #D2E354;
+
+//使用这个背景图片，或者从 transparenttextures.com 中挑一个
+$background-pattern: 'skulls.jpg';
+
+@mixin page {
+  margin: 0 auto;
+  @include min-screen(320px) { width: 315px; }
+  @include min-screen(375px) { width: 370px; }
+  @include min-screen(414px) { width: 410px; }
+  @include min-screen(800px) { width: 780px; }
+}
+
+//********************************************************
+//                  Common styles
+//********************************************************
+
+* { margin: 0; padding: 0; }
+
+body { 
+  font-size: 16px; 
+  font-family: #{$font};
+  color: #{$font-color}; 
+  background: $background-color url("https://yenwtime-1255970624.cos.ap-guangzhou.myqcloud.com/JPG/#{$background-pattern}");
+  -webkit-font-smoothing: antialiased; 
+}
+
+//博客上的时间样式
+time { font-family: #{$time-font} }
+
+header {
+  @include page;
+  text-align: justify;
+  margin: 3em auto;
+  &:after { content: ''; width: 100%; display: inline-block; }
+
+  #header {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    h1 {
+      font-family: #{$font-sans};
+      a { text-decoration: none;
+        color: #a9a9a9; display: block; &:hover { color: #{$highlight-color}; };
+      }
+    }
+  }
+
+  nav {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    span { margin: .5em; }
+    a {
+      font-family: #{$label-font}; color: #ccc;
+    }
+  }
+}
+
+#content {
+  @include page;
+}
+
+article {
+  margin: 2em 0;
+  p { padding: .7em 0; }
+  .title {
+    font-family: #{$font-serif};
+    font-weight: 700;
+    a { @extend a; color: #777; }
+  }
+
+  .post { 
+    a { color: #{$font-color}; border-bottom: 2px solid #{$highlight-color}; &:hover { color: #{$highlight-color}; }; }
+    img { max-width: 100%; display: block; margin: .5em auto; } }
+}

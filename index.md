@@ -6,28 +6,31 @@ layout: default
   {% for post in site.posts limit: 1 %}
   <article class="content">
     <section class="title">
-      <h2><a href="{{ post.url }}" target="_self">{{ post.title }}</a></h2>
+      <h1><a href="{{ post.url }}" target="_self">{{ post.title }}</a></h1>
     </section>
     <section class="meta">
-    <span class="time">
-      <time datetime="{{ post.date }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    </span>
-    {% if page.author %} 
-      <span style="color:#2bb6c9"> {{ page.author }} </span>
+    <span class="item">
+      <time datetime="{{ post.date }}" style="font-weight: bold"><i class="fa fa-calendar"></i> {{ post.date | date:"%Y-%m-%d" }}</time>
+    </span>|
+    {% if post.author %} 
+      <span class="item"><i class="fa fa-copyright"></i> {{ post.author }} </span> |
       {% else %} 
-      <span style="color:#2bb6c9"> 原创 </span>
+      <span class="item"><i class="fa fa-copyright"></i> 原创 </span> |
     {% endif %}
-    {% if post.tags %}
-    <span class="tags">
+    {% if post.tags %}  
+    <span class="item">
       {% for tag in post.tags %}
-      <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+      <a href="/tags#{{ tag }}" title="{{ tag }}" style="color:#909090;"><i class="fa fa-tag"></i> {{ tag }}</a>
       {% endfor %}
     </span>
     {% endif %}
-    <span id="busuanzi_container_page_pv">
-      阅读 |  <span id="busuanzi_value_page_pv" style="font-weight: bold"></span>
+      <!--
+   <span class="item" id="busuanzi_container_page_pv">
+      <i class="fa fa-eye"></i> <span id="busuanzi_value_page_pv" style="font-weight: bold"></span>
     </span>
+    -->
     </section>
+    <hr>
     <section class="post">
     {{ post.content }}
     </section>
@@ -35,7 +38,7 @@ layout: default
   {% endfor %}
   <div class="divider"></div>
   <ul class="listing main-listing">
-    <li class="listing-seperator">Earlier this year</li>
+    <li class="listing-seperator">今年的其他文章</li>
   {% capture year %}{{ site.time | date:"%Y"}}{% endcapture %}
   {% for post in site.posts offset:1 %}
     {% capture y %}{{ post.date | date:"%Y"}}{% endcapture %}
@@ -43,10 +46,10 @@ layout: default
     {% break %}
     {% endif %}
     <li class="listing-item">
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}" style="margin:0 1em 0 0">{{ post.date | date:"%Y-%m-%d" }}</time>
+      <time datetime="{{ post.date | date:"%m-%d" }}">{{ post.date | date:"%m-%d" }}</time>
       <a href="{{ post.url }}" title="{{ post.title }}" target="_self">{{ post.title }}</a>
     </li>
   {% endfor %}
-    <li class="listing-seperator"><a href="/archive.html"  target="_self" style="border-bottom: 2px solid #2bb6c9;">Long long ago</a></li>
+    <li class="listing-seperator"><a href="/archive.html"  target="_self">很久以前的文章</a></li>
   </ul>
 </div>

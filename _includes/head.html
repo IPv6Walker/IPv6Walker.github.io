@@ -1,0 +1,37 @@
+		<!-- 网站 META 数据定义 -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:image" content="">
+		<!-- 页面内链接的跳转方法定义 -->
+		<base target="_blank">
+		<!-- 页面作者信息 -->
+		<meta name="author" content="{% if page.author %}{{ page.author }}{% elsif site.author %}{{ site.author }}{% else %}{% endif %}" />
+		<!-- 页面描述信息 -->
+		<meta name="description" content="
+		{% if page.description %}
+			{{ page.description }}
+		{% elsif site.description %}
+			{{ site.description }}
+		{% elsif site.author %}
+			{{ site.author }}'s site.
+		{% else %}
+			{{ site.title }}'s site.
+		{% endif %}"/>
+		<!-- 当前页面标题栏格式定义 -->
+		{% if page.title %}
+		<title>{{ page.title }} | {{ site.name }}</title>
+		{% else %}
+		<title>{{ site.name }}</title>
+		{% endif %}
+		<!-- 网站图标 -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<!-- 主样式文件 -->
+		<link rel="stylesheet" href="/media/css/style.css">
+		<!-- fonts.css 字体样式文件 -->
+		<!-- <link rel="stylesheet" href="/media/css/fonts.css"> -->
+		<!-- FEED 文件路径 -->
+		<link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+		<!-- font-awesome 样式 -->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
